@@ -1,15 +1,15 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Figtree } from "next/font/google";
 import "./globals.css";
+import SmoothScroll from "./components/ui/SmoothScroll";
+import { AOSInit } from "./components/AOSInit";
+import Header from "./components/layout/Header";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const figtree = Figtree({
+  variable: "--font-figtree",
   subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+  display: "swap",
+  // axes: [""], // Enable optical sizing for display-quality rendering
 });
 
 export const metadata: Metadata = {
@@ -24,10 +24,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
+      <body className={`${figtree.variable} ${figtree.className} leading-tight! tracking-tight! antialiased bg-white!`}>
+        <SmoothScroll>
+          <Header />
+          <AOSInit />
+          {children}
+        </SmoothScroll>
       </body>
     </html>
   );
