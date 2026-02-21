@@ -26,7 +26,7 @@ export default function ImageCarousel({ images, alt }: ImageCarouselProps) {
   const timerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   // Image for a given offset from leftIndex
-  const img = (offset: number) => images[((leftIndex + offset) % n + n) % n];
+  const img = (offset: number) => images[(((leftIndex + offset) % n) + n) % n];
 
   const slide = useCallback(
     (dir: "next" | "prev") => {
@@ -81,7 +81,7 @@ export default function ImageCarousel({ images, alt }: ImageCarouselProps) {
             >
               <Image
                 src={img(offset)}
-                alt={`${alt} ${((leftIndex + offset) % n + n) % n + 1}`}
+                alt={`${alt} ${((((leftIndex + offset) % n) + n) % n) + 1}`}
                 fill
                 className="object-cover"
                 sizes="50vw"
