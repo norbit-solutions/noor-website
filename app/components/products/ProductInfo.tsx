@@ -1,6 +1,5 @@
 "use client";
 
-import { useEffect } from "react";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
 import { Product } from "@/app/data/products";
@@ -13,9 +12,6 @@ interface ProductInfoProps {
 export default function ProductInfo({ product }: ProductInfoProps) {
   const t = useTranslations("ProductDetail");
   const pt = useTranslations("FeaturedProducts");
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
 
   const name = pt(`products.${product.nameKey}.name`);
   const category = pt(`products.${product.nameKey}.category`);

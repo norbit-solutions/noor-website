@@ -35,15 +35,24 @@ export default function ProductCard({
           className="object-cover transition-transform duration-700 group-hover:scale-105"
           sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
         />
+
+        {/* New Badge */}
+        {product.isNew && (
+          <span className="absolute left-3 top-3 z-10 bg-black px-2 py-1 text-[10px] font-semibold uppercase tracking-wider text-white">
+            {t("new")}
+          </span>
+        )}
+
+        {/* Hover Overlay */}
+        <div className="absolute inset-0 flex items-center justify-center bg-black/0 opacity-0 transition-all duration-300 group-hover:bg-black/20 group-hover:opacity-100">
+          <span className="translate-y-4 rounded-full bg-white px-4 py-2 text-xs font-semibold uppercase tracking-wider text-black transition-transform duration-300 group-hover:translate-y-0">
+            {t("viewDetails")}
+          </span>
+        </div>
       </div>
 
       {/* Info */}
       <div className="px-1">
-        {product.isNew && (
-          <span className="text-[10px] font-semibold uppercase tracking-wider text-gray-500 mb-1 block">
-            {t("new")}
-          </span>
-        )}
         <h3 className="text-sm font-medium text-black group-hover:text-gray-600 transition-colors">
           {pt(`products.${product.nameKey}.name`)}
         </h3>

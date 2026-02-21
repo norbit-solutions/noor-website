@@ -1,11 +1,13 @@
 "use client";
 import { useEffect, useRef } from "react";
+import { usePathname } from "next/navigation";
 import Lenis from "lenis";
 interface SmoothScrollProps {
   children: React.ReactNode;
 }
 export default function SmoothScroll({ children }: SmoothScrollProps) {
   const lenisRef = useRef<Lenis | null>(null);
+  const pathname = usePathname();
 
   useEffect(() => {
     // Disable smooth scroll on mobile — native scroll feels better on touch devices
@@ -35,6 +37,16 @@ export default function SmoothScroll({ children }: SmoothScrollProps) {
       lenisRef.current = null;
     };
   }, []);
+
+  // Scroll to top on every route change via Lenis
+  useEffect(() => {
+    if (lenisRef.current) {
+      lenisRef.current.scrollTo(0, { immediate: true });
+    } else {
+      // Fallback for mobile (Lenis not active)
+      window.scrollTo(0, 0);
+    }
+  }, [pathname]);
 
   return <>{children}</>;
 }
