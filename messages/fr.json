@@ -1,0 +1,376 @@
+{
+  "Metadata": {
+    "title": "SOCIÉTÉ M NOUR – Fourniture & Distribution à Bangui",
+    "description": "ETS M NOUR est une entreprise spécialisée dans la fourniture et la distribution de produits et équipements divers à Bangui, République Centrafricaine."
+  },
+  "Header": {
+    "menu": "MENU",
+    "back": "Retour",
+    "menuItems": {
+      "home": "Accueil",
+      "about": "À Propos",
+      "categories": "Catégories",
+      "contact": "Contactez-Nous"
+    },
+    "categories": {
+      "title": "Nos Catégories",
+      "generalSupplies": "Fournitures Générales",
+      "professionalEquipment": "Équipements Professionnels",
+      "technicalMaterials": "Matériels Techniques",
+      "agriculturalProducts": "Semences & Produits Agricoles"
+    }
+  },
+  "Hero": {
+    "subtitle": "Bienvenue chez SOCIÉTÉ M NOUR",
+    "title": "Votre partenaire fiable en fourniture et distribution.",
+    "description": "Spécialisée dans la fourniture et la distribution de produits et équipements divers. Nous accompagnons les entreprises, ONG et institutions avec des solutions adaptées, fiables et efficaces.",
+    "exploreCta": "Découvrir Nos Produits",
+    "contactCta": "Contactez-Nous",
+    "scroll": "Défiler"
+  },
+  "FeaturedCategories": {
+    "title": "Nos Catégories",
+    "seeAll": "Voir Toutes les Catégories",
+    "categories": {
+      "generalSupplies": "Fournitures Générales",
+      "professionalEquipment": "Équipements Professionnels",
+      "technicalMaterials": "Matériels Techniques",
+      "agriculturalProducts": "Semences & Produits Agricoles"
+    }
+  },
+  "FeaturedProducts": {
+    "subtitle": "Sélection de Produits",
+    "title": "Produits Phares",
+    "viewAll": "Voir Tous les Produits",
+    "viewDetails": "Voir Détails",
+    "new": "Nouveau",
+    "products": {
+      "paperReam": {
+        "name": "Ramette de Papier A4",
+        "category": "Fournitures Générales"
+      },
+      "printer": {
+        "name": "Imprimante Multifonction",
+        "category": "Équipements Professionnels"
+      },
+      "generator": {
+        "name": "Groupe Électrogène",
+        "category": "Matériels Techniques"
+      },
+      "cornSeeds": {
+        "name": "Semences de Maïs Certifiées",
+        "category": "Produits Agricoles"
+      },
+      "inkCartridges": {
+        "name": "Cartouches d'Encre",
+        "category": "Fournitures Générales"
+      },
+      "officeFurniture": {
+        "name": "Mobilier de Bureau",
+        "category": "Équipements Professionnels"
+      },
+      "technicalTools": {
+        "name": "Outillage Technique",
+        "category": "Matériels Techniques"
+      },
+      "fertilizer": {
+        "name": "Engrais NPK",
+        "category": "Produits Agricoles"
+      }
+    },
+    "descriptions": {
+      "paperReamDesc": "Ramettes de papier A4 de qualité supérieure, parfaites pour l'impression de bureau, la photocopie et les besoins quotidiens en documentation. Finition blanc brillant avec excellente absorption d'encre.",
+      "printerDesc": "Imprimante laser multifonction haute performance avec impression, numérisation, copie et fax. Idéale pour les environnements de bureau exigeants.",
+      "generatorDesc": "Groupe électrogène diesel robuste conçu pour une alimentation de secours fiable. Parfait pour les entreprises, chantiers et sites distants.",
+      "cornSeedsDesc": "Semences de maïs hybrides certifiées avec d'excellents taux de germination. Spécialement sélectionnées pour les conditions de culture centrafricaines.",
+      "inkCartridgesDesc": "Cartouches d'encre compatibles universelles offrant une qualité d'impression exceptionnelle à des prix compétitifs. Haut rendement pour une impression économique.",
+      "officeFurnitureDesc": "Bureau exécutif professionnel fabriqué à partir de matériaux de qualité supérieure. Design ergonomique avec espace de travail et rangement.",
+      "technicalToolsDesc": "Coffret d'outils professionnel de 52 pièces en acier chrome vanadium. Construction durable et précise pour les applications exigeantes.",
+      "fertilizerDesc": "Engrais NPK 15-15-15 à libération lente équilibré, adapté à tous types de cultures. Favorise une croissance saine et de meilleurs rendements."
+    }
+  },
+  "WhyChooseUs": {
+    "subtitle": "Pourquoi Nous Choisir",
+    "title": "L'Excellence",
+    "titleHighlight": "Dans Chaque Détail",
+    "description": "Notre entreprise se distingue par sa capacité à comprendre rapidement les besoins du client et à proposer des solutions adaptées, fiables et conformes aux exigences demandées.",
+    "features": {
+      "quality": {
+        "title": "Qualité Garantie",
+        "description": "Chaque produit est rigoureusement contrôlé pour garantir la conformité aux normes et la satisfaction de nos clients."
+      },
+      "speed": {
+        "title": "Rapidité d'Exécution",
+        "description": "Livraison rapide et fiable avec un respect strict des délais convenus avec nos partenaires."
+      },
+      "support": {
+        "title": "Accompagnement Dédié",
+        "description": "Notre équipe est à votre disposition pour répondre à toutes vos demandes et vous accompagner dans vos projets."
+      },
+      "trust": {
+        "title": "Confiance & Transparence",
+        "description": "Nous privilégions une relation de confiance basée sur la transparence des prix et le respect des engagements."
+      }
+    },
+    "stats": {
+      "years": "Années",
+      "products": "Produits",
+      "clients": "Clients",
+      "satisfaction": "Satisfaction"
+    }
+  },
+  "SpecialOffers": {
+    "subtitle": "Pour les Entreprises & Institutions",
+    "title": "Commandes & Partenariats",
+    "description": "Vous recherchez un fournisseur fiable ? Nous proposons des solutions d'approvisionnement sur commande adaptées aux exigences des marchés publics et privés, avec des prix compétitifs et un accompagnement dédié.",
+    "benefits": {
+      "discount": {
+        "value": "15%",
+        "label": "Réduction Volume"
+      },
+      "response": {
+        "value": "24h",
+        "label": "Réponse Rapide"
+      },
+      "delivery": {
+        "value": "Gratuite",
+        "label": "Livraison en Gros"
+      }
+    },
+    "requestQuote": "Demander un Devis",
+    "whatWeOffer": "Ce Que Nous Offrons",
+    "services": {
+      "bulkSupply": {
+        "title": "Fourniture en Gros",
+        "desc": "Commandes en grande quantité"
+      },
+      "logistics": {
+        "title": "Logistique",
+        "desc": "Livraison sur tout le territoire"
+      },
+      "b2bDeals": {
+        "title": "Marchés B2B",
+        "desc": "Tarification personnalisée"
+      },
+      "partnership": {
+        "title": "Partenariat",
+        "desc": "Devenez distributeur"
+      }
+    },
+    "callForInquiries": "Appelez pour vos demandes :",
+    "phone": "+236 XX XX XX XX"
+  },
+  "About": {
+    "title": "L'Histoire de M NOUR",
+    "paragraph1": "ETS M NOUR est une entreprise spécialisée dans la fourniture et la distribution de produits et équipements divers. Nous accompagnons les entreprises, ONG et institutions avec des solutions adaptées, fiables et efficaces. Notre priorité est la satisfaction du client et le respect des engagements.",
+    "paragraph2": "Créée en 2021 à Bangui, notre entreprise répond au besoin croissant de produits et services fiables, accessibles et livrés dans les délais. Nous aidons nos clients à s'approvisionner facilement en produits conformes à leurs besoins, en garantissant la qualité, la transparence des prix et le respect des délais de livraison.",
+    "readMore": "En Savoir Plus"
+  },
+  "Statistics": {
+    "subtitle": "Notre Parcours",
+    "title": "Des Chiffres Qui Parlent",
+    "stats": {
+      "years": {
+        "value": "4+",
+        "label": "Années d'Expérience",
+        "description": "Au service de nos clients depuis 2021"
+      },
+      "projects": {
+        "value": "100+",
+        "label": "Projets Réalisés",
+        "description": "Pour entreprises, ONG et institutions"
+      },
+      "clients": {
+        "value": "50+",
+        "label": "Clients Satisfaits",
+        "description": "Avec un taux élevé de satisfaction"
+      },
+      "products": {
+        "value": "500+",
+        "label": "Références Produits",
+        "description": "Dans des catégories diversifiées"
+      }
+    }
+  },
+  "Brands": {
+    "subtitle": "Partenaires de Confiance",
+    "title": "Nos Fournisseurs",
+    "partnering": "Partenaire avec",
+    "brandsCount": "100+",
+    "brandsLabel": "fournisseurs fiables"
+  },
+  "Testimonials": {
+    "subtitle": "Témoignages Clients",
+    "title": "Ce Que Disent Nos Clients",
+    "testimonials": {
+      "client1": {
+        "name": "Jean-Baptiste Mokom",
+        "role": "Directeur d'ONG",
+        "text": "SOCIÉTÉ M NOUR a été un partenaire fiable pour nos projets d'approvisionnement. Qualité des produits et respect des délais, nous sommes très satisfaits de leur service."
+      },
+      "client2": {
+        "name": "Marie-Claire Zanga",
+        "role": "Responsable Achats",
+        "text": "La diversité des produits proposés et la transparence des prix nous ont convaincus. Un fournisseur de confiance pour toutes nos commandes institutionnelles."
+      },
+      "client3": {
+        "name": "Ibrahim Mahamat",
+        "role": "Chef d'Entreprise",
+        "text": "Depuis notre collaboration avec M NOUR, nous avons un partenaire fiable qui comprend nos besoins. Leur réactivité et leur professionnalisme sont remarquables."
+      }
+    }
+  },
+  "Newsletter": {
+    "subtitle": "Restez Informé",
+    "title": "Inscrivez-vous à Notre Newsletter",
+    "description": "Recevez les dernières actualités sur nos produits, offres exclusives et services directement dans votre boîte mail.",
+    "placeholder": "Entrez votre adresse e-mail",
+    "subscribe": "S'inscrire",
+    "privacy": "En vous inscrivant, vous acceptez notre Politique de Confidentialité. Nous respectons votre vie privée."
+  },
+  "Contact": {
+    "subtitle": "Contactez-Nous",
+    "title": "Travaillons Ensemble",
+    "description": "Des questions sur nos produits ou services ? Nous sommes à votre écoute. Contactez-nous et discutons de la manière dont nous pouvons répondre à vos besoins.",
+    "phone": {
+      "title": "Appelez-Nous",
+      "value": "+236 XX XX XX XX"
+    },
+    "email": {
+      "title": "Écrivez-Nous",
+      "value": "contact@societemnour.com"
+    },
+    "location": {
+      "title": "Visitez-Nous",
+      "value": "Bangui, République Centrafricaine"
+    },
+    "cta": "Nous Contacter"
+  },
+  "Footer": {
+    "description": "Votre partenaire de confiance pour la fourniture et la distribution de produits et équipements divers. Au service de nos clients avec excellence depuis 2021.",
+    "categories": {
+      "title": "Catégories",
+      "generalSupplies": "Fournitures Générales",
+      "professionalEquipment": "Équipements Professionnels",
+      "technicalMaterials": "Matériels Techniques",
+      "agriculturalProducts": "Produits Agricoles"
+    },
+    "company": {
+      "title": "Entreprise",
+      "about": "À Propos",
+      "story": "Notre Histoire",
+      "careers": "Carrières",
+      "news": "Actualités"
+    },
+    "support": {
+      "title": "Support",
+      "contact": "Contactez-Nous",
+      "faq": "FAQ",
+      "shipping": "Livraison",
+      "returns": "Retours"
+    },
+    "legal": {
+      "privacy": "Politique de Confidentialité",
+      "terms": "Conditions Générales",
+      "cookies": "Politique de Cookies"
+    },
+    "copyright": "© {year} SOCIÉTÉ M NOUR. Tous droits réservés."
+  },
+  "ProductsPage": {
+    "heroSubtitle": "Nos Produits",
+    "heroTitle": "Produits de Qualité,",
+    "heroTitleHighlight": "Solutions Fiables",
+    "heroDescription": "Parcourez notre vaste catalogue de produits dans plusieurs catégories. Des fournitures de bureau aux équipements techniques, nous avons tout ce dont votre entreprise a besoin.",
+    "searchPlaceholder": "Rechercher des produits...",
+    "allCategories": "Toutes les Catégories",
+    "sortBy": "Trier Par",
+    "sortDefault": "Par Défaut",
+    "sortNameAsc": "Nom A-Z",
+    "sortNameDesc": "Nom Z-A",
+    "sortPriceLow": "Prix: Croissant",
+    "sortPriceHigh": "Prix: Décroissant",
+    "noResults": "Aucun produit trouvé",
+    "noResultsDescription": "Essayez d'ajuster votre recherche ou votre filtre pour trouver ce que vous cherchez.",
+    "resetFilters": "Réinitialiser les Filtres",
+    "viewDetails": "Voir Détails",
+    "showing": "Affichage de",
+    "of": "sur",
+    "products": "produits",
+    "new": "Nouveau",
+    "categories": {
+      "generalSupplies": "Fournitures Générales",
+      "professionalEquipment": "Équipements Professionnels",
+      "technicalMaterials": "Matériels Techniques",
+      "agriculturalProducts": "Produits Agricoles"
+    }
+  },
+  "ProductDetail": {
+    "backToProducts": "Retour aux Produits",    "backToCategory": "Retour à la catégorie",    "category": "Catégorie",
+    "description": "Description",
+    "specifications": "Spécifications",
+    "requestQuote": "Demander un Devis",
+    "contactUs": "Contactez-Nous pour les Prix",
+    "availability": "Disponibilité",
+    "inStock": "En Stock",
+    "sku": "Réf",
+    "recommended": "Produits Recommandés",
+    "recommendedSubtitle": "Vous pourriez aussi aimer",
+    "viewProduct": "Voir le Produit"
+  },
+  "AboutPage": {
+    "heroSubtitle": "À Propos",
+    "heroTitle": "Construire la Confiance,",
+    "heroTitleHighlight": "Livrer l'Excellence",
+    "heroDescription": "Depuis 2021, SOCIÉTÉ M NOUR est le partenaire de confiance des entreprises, ONG et institutions à travers la République Centrafricaine.",
+    "storySubtitle": "Notre Histoire",
+    "storyTitle": "De la Vision à la Réalité",
+    "storyP1": "Fondée en 2021 à Bangui, SOCIÉTÉ M NOUR est née d'une vision simple mais puissante : combler le fossé entre les produits de qualité et les entreprises qui en ont le plus besoin.",
+    "storyP2": "Dans un marché où la fiabilité et la transparence sont primordiales, nous avons décidé de créer une entreprise de fourniture et distribution sur laquelle nos clients peuvent véritablement compter. Dès le premier jour, notre engagement a été de livrer des produits répondant aux normes les plus élevées, à des prix transparents, et toujours dans les délais.",
+    "storyP3": "Aujourd'hui, nous servons fièrement plus de 50 clients dans des secteurs diversifiés — des ONG internationales aux entreprises locales et institutions gouvernementales — fournissant tout, des fournitures de bureau aux équipements professionnels, en passant par le matériel technique et les produits agricoles.",
+    "founderSubtitle": "Direction",
+    "founderTitle": "Notre Fondateur",
+    "founderName": "Mahamat Nour Zakaria Sakine",
+    "founderRole": "Président Directeur Général",
+    "founderBorn": "Né le 1er mai 2002 — Bangui, République Centrafricaine",
+    "founderBio1": "Jeune entrepreneur visionnaire, Mahamat Nour Zakaria Sakine a fondé SOCIÉTÉ M NOUR avec l'ambition de transformer le paysage de la fourniture et de la distribution en République Centrafricaine.",
+    "founderBio2": "Son leadership se définit par une quête incessante d'excellence, un engagement indéfectible envers la satisfaction client, et une compréhension profonde des besoins du marché local. Sous sa direction, l'entreprise est passée d'une startup à un nom de confiance dans la fourniture et la distribution.",
+    "founderBio3": "Mahamat croit que le succès en affaires vient de la construction de relations authentiques basées sur la confiance, la transparence et le respect mutuel.",
+    "valuesSubtitle": "Nos Valeurs",
+    "valuesTitle": "Ce Qui Nous Anime",
+    "values": {
+      "integrity": {
+        "title": "Intégrité",
+        "description": "Nous menons chaque transaction avec honnêteté et transparence, construisant des relations durables basées sur la confiance."
+      },
+      "excellence": {
+        "title": "Excellence",
+        "description": "Nous nous tenons aux normes les plus élevées en matière de qualité des produits, de prestation de services et de service client."
+      },
+      "reliability": {
+        "title": "Fiabilité",
+        "description": "Nos clients comptent sur nous pour une livraison ponctuelle, une qualité constante et des partenariats fiables."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "Nous cherchons continuellement de nouvelles façons d'améliorer nos services et de mieux répondre aux besoins évolutifs de nos clients."
+      }
+    },
+    "ctaTitle": "Prêt à Devenir Partenaire ?",
+    "ctaDescription": "Que vous ayez besoin de fournitures en gros, d'équipements spécialisés ou d'un partenaire de distribution à long terme — nous sommes là pour vous aider.",
+    "ctaButton": "Contactez-Nous",
+    "stats": {
+      "founded": "Fondée en",
+      "foundedValue": "2021",
+      "clients": "Clients Servis",
+      "clientsValue": "50+",
+      "products": "Références Produits",
+      "productsValue": "500+",
+      "satisfaction": "Taux de Satisfaction",
+      "satisfactionValue": "99%"
+    }
+  },
+  "LocaleSwitcher": {
+    "fr": "Français",
+    "en": "English"
+  }
+}

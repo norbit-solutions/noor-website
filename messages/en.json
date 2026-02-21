@@ -1,0 +1,378 @@
+{
+  "Metadata": {
+    "title": "SOCIÉTÉ M NOUR – Supply & Distribution in Bangui",
+    "description": "ETS M NOUR is a company specializing in the supply and distribution of various products and equipment in Bangui, Central African Republic."
+  },
+  "Header": {
+    "menu": "MENU",
+    "back": "Back",
+    "menuItems": {
+      "home": "Home",
+      "about": "About",
+      "categories": "Categories",
+      "contact": "Contact Us"
+    },
+    "categories": {
+      "title": "Our Categories",
+      "generalSupplies": "General Supplies",
+      "professionalEquipment": "Professional Equipment",
+      "technicalMaterials": "Technical Materials",
+      "agriculturalProducts": "Seeds & Agricultural Products"
+    }
+  },
+  "Hero": {
+    "subtitle": "Welcome to SOCIÉTÉ M NOUR",
+    "title": "Your reliable partner in supply and distribution.",
+    "description": "Specializing in the supply and distribution of various products and equipment. We support businesses, NGOs and institutions with tailored, reliable and efficient solutions.",
+    "exploreCta": "Discover Our Products",
+    "contactCta": "Contact Us",
+    "scroll": "Scroll"
+  },
+  "FeaturedCategories": {
+    "title": "Our Categories",
+    "seeAll": "See All Categories",
+    "categories": {
+      "generalSupplies": "General Supplies",
+      "professionalEquipment": "Professional Equipment",
+      "technicalMaterials": "Technical Materials",
+      "agriculturalProducts": "Seeds & Agricultural Products"
+    }
+  },
+  "FeaturedProducts": {
+    "subtitle": "Product Selection",
+    "title": "Featured Products",
+    "viewAll": "View All Products",
+    "viewDetails": "View Details",
+    "new": "New",
+    "products": {
+      "paperReam": {
+        "name": "A4 Paper Ream",
+        "category": "General Supplies"
+      },
+      "printer": {
+        "name": "Multifunction Printer",
+        "category": "Professional Equipment"
+      },
+      "generator": {
+        "name": "Power Generator",
+        "category": "Technical Materials"
+      },
+      "cornSeeds": {
+        "name": "Certified Corn Seeds",
+        "category": "Agricultural Products"
+      },
+      "inkCartridges": {
+        "name": "Ink Cartridges",
+        "category": "General Supplies"
+      },
+      "officeFurniture": {
+        "name": "Office Furniture",
+        "category": "Professional Equipment"
+      },
+      "technicalTools": {
+        "name": "Technical Tools",
+        "category": "Technical Materials"
+      },
+      "fertilizer": {
+        "name": "NPK Fertilizer",
+        "category": "Agricultural Products"
+      }
+    },
+    "descriptions": {
+      "paperReamDesc": "Premium quality A4 paper reams, perfect for office printing, photocopying, and everyday documentation needs. Bright white finish with excellent ink absorption.",
+      "printerDesc": "High-performance multifunction laser printer with print, scan, copy, and fax capabilities. Ideal for busy office environments requiring reliable, fast output.",
+      "generatorDesc": "Robust diesel power generator designed for reliable backup power. Perfect for businesses, construction sites, and remote locations requiring consistent electricity.",
+      "cornSeedsDesc": "Certified hybrid corn seeds with excellent germination rates. Specially selected for Central African growing conditions, ensuring high yields and disease resistance.",
+      "inkCartridgesDesc": "Universal compatible ink cartridges offering exceptional print quality at competitive prices. High-yield design for cost-effective printing.",
+      "officeFurnitureDesc": "Professional executive office desk crafted from premium materials. Ergonomic design with ample workspace and storage, combining style with functionality.",
+      "technicalToolsDesc": "Professional-grade 52-piece tool set in a heavy-duty carry case. Chrome vanadium steel construction for durability and precision in demanding applications.",
+      "fertilizerDesc": "Balanced NPK 15-15-15 slow-release fertilizer suitable for all crop types. Promotes healthy plant growth, strong root development, and improved yields."
+    }
+  },
+  "WhyChooseUs": {
+    "subtitle": "Why Choose Us",
+    "title": "Excellence",
+    "titleHighlight": "In Every Detail",
+    "description": "Our company stands out through its ability to quickly understand customer needs and offer tailored, reliable solutions that meet the required standards.",
+    "features": {
+      "quality": {
+        "title": "Guaranteed Quality",
+        "description": "Every product is rigorously inspected to ensure compliance with standards and customer satisfaction."
+      },
+      "speed": {
+        "title": "Fast Execution",
+        "description": "Fast and reliable delivery with strict adherence to the deadlines agreed upon with our partners."
+      },
+      "support": {
+        "title": "Dedicated Support",
+        "description": "Our team is at your disposal to answer all your requests and support you in your projects."
+      },
+      "trust": {
+        "title": "Trust & Transparency",
+        "description": "We prioritize a relationship of trust based on price transparency and respect for commitments."
+      }
+    },
+    "stats": {
+      "years": "Years",
+      "products": "Products",
+      "clients": "Clients",
+      "satisfaction": "Satisfaction"
+    }
+  },
+  "SpecialOffers": {
+    "subtitle": "For Businesses & Institutions",
+    "title": "Orders & Partnerships",
+    "description": "Looking for a reliable supplier? We offer custom procurement solutions tailored to public and private market requirements, with competitive pricing and dedicated support.",
+    "benefits": {
+      "discount": {
+        "value": "15%",
+        "label": "Volume Discount"
+      },
+      "response": {
+        "value": "24h",
+        "label": "Quick Response"
+      },
+      "delivery": {
+        "value": "Free",
+        "label": "Bulk Delivery"
+      }
+    },
+    "requestQuote": "Request a Quote",
+    "whatWeOffer": "What We Offer",
+    "services": {
+      "bulkSupply": {
+        "title": "Bulk Supply",
+        "desc": "Large quantity orders"
+      },
+      "logistics": {
+        "title": "Logistics",
+        "desc": "Nationwide delivery"
+      },
+      "b2bDeals": {
+        "title": "B2B Deals",
+        "desc": "Custom pricing"
+      },
+      "partnership": {
+        "title": "Partnership",
+        "desc": "Become a distributor"
+      }
+    },
+    "callForInquiries": "Call for inquiries:",
+    "phone": "+236 XX XX XX XX"
+  },
+  "About": {
+    "title": "The M NOUR Story",
+    "paragraph1": "ETS M NOUR is a company specializing in the supply and distribution of various products and equipment. We support businesses, NGOs and institutions with tailored, reliable and efficient solutions. Our priority is customer satisfaction and the fulfillment of commitments.",
+    "paragraph2": "Founded in 2021 in Bangui, our company addresses the growing need for reliable, accessible products and services delivered on time. We help our clients easily procure products that meet their needs, guaranteeing quality, price transparency and on-time delivery.",
+    "readMore": "Read More"
+  },
+  "Statistics": {
+    "subtitle": "Our Journey",
+    "title": "Numbers That Speak",
+    "stats": {
+      "years": {
+        "value": "4+",
+        "label": "Years of Experience",
+        "description": "Serving our clients since 2021"
+      },
+      "projects": {
+        "value": "100+",
+        "label": "Projects Completed",
+        "description": "For businesses, NGOs and institutions"
+      },
+      "clients": {
+        "value": "50+",
+        "label": "Satisfied Clients",
+        "description": "With a high satisfaction rate"
+      },
+      "products": {
+        "value": "500+",
+        "label": "Product References",
+        "description": "Across diverse categories"
+      }
+    }
+  },
+  "Brands": {
+    "subtitle": "Trusted Partners",
+    "title": "Our Suppliers",
+    "partnering": "Partnering with",
+    "brandsCount": "100+",
+    "brandsLabel": "reliable suppliers"
+  },
+  "Testimonials": {
+    "subtitle": "Client Testimonials",
+    "title": "What Our Clients Say",
+    "testimonials": {
+      "client1": {
+        "name": "Jean-Baptiste Mokom",
+        "role": "NGO Director",
+        "text": "SOCIÉTÉ M NOUR has been a reliable partner for our procurement projects. Product quality and on-time delivery — we are very satisfied with their service."
+      },
+      "client2": {
+        "name": "Marie-Claire Zanga",
+        "role": "Procurement Manager",
+        "text": "The diversity of products offered and the transparency of pricing convinced us. A trusted supplier for all our institutional orders."
+      },
+      "client3": {
+        "name": "Ibrahim Mahamat",
+        "role": "Business Owner",
+        "text": "Since our collaboration with M NOUR, we have a reliable partner who understands our needs. Their responsiveness and professionalism are remarkable."
+      }
+    }
+  },
+  "Newsletter": {
+    "subtitle": "Stay Updated",
+    "title": "Subscribe to Our Newsletter",
+    "description": "Get the latest updates on our products, exclusive offers and services delivered straight to your inbox.",
+    "placeholder": "Enter your email address",
+    "subscribe": "Subscribe",
+    "privacy": "By subscribing, you agree to our Privacy Policy. We respect your privacy."
+  },
+  "Contact": {
+    "subtitle": "Contact Us",
+    "title": "Let's Work Together",
+    "description": "Questions about our products or services? We're here to help. Contact us and let's discuss how we can meet your needs.",
+    "phone": {
+      "title": "Call Us",
+      "value": "+236 XX XX XX XX"
+    },
+    "email": {
+      "title": "Email Us",
+      "value": "contact@societemnour.com"
+    },
+    "location": {
+      "title": "Visit Us",
+      "value": "Bangui, Central African Republic"
+    },
+    "cta": "Contact Us"
+  },
+  "Footer": {
+    "description": "Your trusted partner for the supply and distribution of various products and equipment. Serving our clients with excellence since 2021.",
+    "categories": {
+      "title": "Categories",
+      "generalSupplies": "General Supplies",
+      "professionalEquipment": "Professional Equipment",
+      "technicalMaterials": "Technical Materials",
+      "agriculturalProducts": "Agricultural Products"
+    },
+    "company": {
+      "title": "Company",
+      "about": "About Us",
+      "story": "Our Story",
+      "careers": "Careers",
+      "news": "News"
+    },
+    "support": {
+      "title": "Support",
+      "contact": "Contact Us",
+      "faq": "FAQ",
+      "shipping": "Shipping",
+      "returns": "Returns"
+    },
+    "legal": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "cookies": "Cookie Policy"
+    },
+    "copyright": "© {year} SOCIÉTÉ M NOUR. All rights reserved."
+  },
+  "ProductsPage": {
+    "heroSubtitle": "Our Products",
+    "heroTitle": "Quality Products,",
+    "heroTitleHighlight": "Trusted Solutions",
+    "heroDescription": "Browse our extensive catalog of products across multiple categories. From office supplies to technical equipment, we have everything your business needs.",
+    "searchPlaceholder": "Search products...",
+    "allCategories": "All Categories",
+    "sortBy": "Sort By",
+    "sortDefault": "Default",
+    "sortNameAsc": "Name A-Z",
+    "sortNameDesc": "Name Z-A",
+    "sortPriceLow": "Price: Low to High",
+    "sortPriceHigh": "Price: High to Low",
+    "noResults": "No products found",
+    "noResultsDescription": "Try adjusting your search or filter to find what you're looking for.",
+    "resetFilters": "Reset Filters",
+    "viewDetails": "View Details",
+    "showing": "Showing",
+    "of": "of",
+    "products": "products",
+    "new": "New",
+    "categories": {
+      "generalSupplies": "General Supplies",
+      "professionalEquipment": "Professional Equipment",
+      "technicalMaterials": "Technical Materials",
+      "agriculturalProducts": "Agricultural Products"
+    }
+  },
+  "ProductDetail": {
+    "backToProducts": "Back to Products",
+    "backToCategory": "Back to Category",
+    "category": "Category",
+    "description": "Description",
+    "specifications": "Specifications",
+    "requestQuote": "Request a Quote",
+    "contactUs": "Contact Us for Pricing",
+    "availability": "Availability",
+    "inStock": "In Stock",
+    "sku": "SKU",
+    "recommended": "Recommended Products",
+    "recommendedSubtitle": "You might also like",
+    "viewProduct": "View Product"
+  },
+  "AboutPage": {
+    "heroSubtitle": "About Us",
+    "heroTitle": "Building Trust,",
+    "heroTitleHighlight": "Delivering Excellence",
+    "heroDescription": "Since 2021, SOCIÉTÉ M NOUR has been the trusted partner for businesses, NGOs and institutions across the Central African Republic.",
+    "storySubtitle": "Our Story",
+    "storyTitle": "From Vision to Reality",
+    "storyP1": "Founded in 2021 in Bangui, SOCIÉTÉ M NOUR was born from a simple yet powerful vision: to bridge the gap between quality products and the businesses that need them most.",
+    "storyP2": "In a market where reliability and transparency are paramount, we set out to create a supply and distribution company that our clients could truly depend on. From day one, our commitment has been to deliver products that meet the highest standards, at transparent prices, and always on time.",
+    "storyP3": "Today, we proudly serve over 50 clients across diverse sectors — from international NGOs to local businesses and government institutions — providing everything from office supplies and professional equipment to technical materials and agricultural products.",
+    "founderSubtitle": "Leadership",
+    "founderTitle": "Meet Our Founder",
+    "founderName": "Mahamat Nour Zakaria Sakine",
+    "founderRole": "President & Chief Executive Officer",
+    "founderBorn": "Born May 1, 2002 — Bangui, Central African Republic",
+    "founderBio1": "A young and visionary entrepreneur, Mahamat Nour Zakaria Sakine founded SOCIÉTÉ M NOUR with the ambition of transforming the supply and distribution landscape in the Central African Republic.",
+    "founderBio2": "His leadership is defined by a relentless pursuit of excellence, an unwavering commitment to customer satisfaction, and a deep understanding of the local market's needs. Under his guidance, the company has grown from a startup to a trusted name in supply and distribution.",
+    "founderBio3": "Mahamat believes that business success comes from building genuine relationships based on trust, transparency, and mutual respect.",
+    "valuesSubtitle": "Our Values",
+    "valuesTitle": "What Drives Us",
+    "values": {
+      "integrity": {
+        "title": "Integrity",
+        "description": "We conduct every transaction with honesty and transparency, building lasting relationships based on trust."
+      },
+      "excellence": {
+        "title": "Excellence",
+        "description": "We hold ourselves to the highest standards in product quality, service delivery, and customer care."
+      },
+      "reliability": {
+        "title": "Reliability",
+        "description": "Our clients count on us for on-time delivery, consistent quality, and dependable partnerships."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "We continuously seek new ways to improve our services and better meet our clients' evolving needs."
+      }
+    },
+    "ctaTitle": "Ready to Partner With Us?",
+    "ctaDescription": "Whether you need bulk supplies, specialized equipment, or a long-term distribution partner — we're here to help.",
+    "ctaButton": "Get in Touch",
+    "stats": {
+      "founded": "Founded",
+      "foundedValue": "2021",
+      "clients": "Clients Served",
+      "clientsValue": "50+",
+      "products": "Product References",
+      "productsValue": "500+",
+      "satisfaction": "Satisfaction Rate",
+      "satisfactionValue": "99%"
+    }
+  },
+  "LocaleSwitcher": {
+    "fr": "Français",
+    "en": "English"
+  }
+}
