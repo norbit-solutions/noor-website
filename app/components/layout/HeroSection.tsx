@@ -61,7 +61,7 @@ export default function HeroSection() {
 
             {/* Title */}
             <h1
-              className="mb-8 text-4xl font-light leading-[1.1] text-white sm:text-5xl md:text-6xl lg:text-7xl"
+              className="mb-8 text-2xl font-light tracking-wider leading-normal text-white sm:text-3xl md:text-4xl lg:text-5xl"
               style={{ perspective: "1000px" }}
             >
               {words.map((word, i) => (
@@ -81,7 +81,7 @@ export default function HeroSection() {
             {/* Description */}
             <p
               ref={descriptionRef}
-              className="mb-10 max-w-lg text-base leading-relaxed text-white/70 sm:text-lg"
+              className="mb-10 max-w-lg text-base leading-relaxed text-white/70 sm:text-sm tracking-wider"
             >
               {t("description")}
             </p>
@@ -119,7 +119,7 @@ export default function HeroSection() {
           {/* Scroll Indicator */}
           <div
             ref={scrollIndicatorRef}
-            className="absolute bottom-12 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2"
+            className="hidden absolute bottom-12 left-1/2 -translate-x-1/2 md:flex flex-col items-center gap-2"
           >
             <span className="text-[10px] uppercase tracking-widest text-white/50">
               {t("scroll")}

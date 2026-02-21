@@ -21,7 +21,7 @@ export default function RecommendedProducts({
 
   return (
     <section className="py-20 lg:py-28 bg-gray-50">
-      <div className="max-w-7xl mx-auto px-6 sm:px-12 lg:px-20">
+      <div className=" px-6 sm:px-8 lg:px-12">
         {/* Header */}
         <div className="mb-12" data-aos="fade-up" data-aos-duration="800">
           <span className="text-sm font-medium uppercase tracking-wider text-gray-400 block mb-2">

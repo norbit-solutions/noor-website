@@ -133,7 +133,7 @@ export default function SecondaryHero({
 
           {/* Title — word-by-word like main hero */}
           <h1
-            className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-light text-white mb-6 leading-[1.1]"
+            className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl tracking-wider font-light text-white mb-6 leading-[1.1]"
             style={{ perspective: "1000px" }}
           >
             {allWords.map((word, i) => (
@@ -155,7 +155,7 @@ export default function SecondaryHero({
           {/* Description */}
           <p
             ref={descriptionRef}
-            className="text-lg md:text-xl text-white/70 max-w-xl leading-relaxed"
+            className="text-sm md:text-lg text-white/70 max-w-xl tracking-wider"
             style={{ opacity: 0 }}
           >
             {description}
@@ -171,7 +171,10 @@ export default function SecondaryHero({
           style={{ opacity: 0 }}
         >
           {stats.map((stat, index) => (
-            <div key={index}>
+            <div
+              key={index}
+              className="flex w-full justify-center items-center gap-3"
+            >
               <span className="block text-3xl md:text-4xl font-light text-white mb-1">
                 {stat.value}
               </span>

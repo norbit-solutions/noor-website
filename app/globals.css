@@ -98,6 +98,38 @@ body {
   @apply absolute left-1/2 top-0 h-20 w-px -translate-x-1/2 bg-gradient-to-b from-transparent via-gray-200 to-transparent;
 }
 
+/* Mobile: Bare minimum fade only — no movement, no delays */
+@media (max-width: 767px) {
+  [data-aos] {
+    transform: none !important;
+    opacity: 0;
+    transition-property: opacity !important;
+    transition-duration: 400ms !important;
+  }
+
+  [data-aos].aos-animate {
+    transform: none !important;
+    opacity: 1;
+  }
+
+  /* Remove all stagger delays */
+  [data-aos][data-aos-delay] {
+    transition-delay: 0s !important;
+  }
+
+  /* Keep scale-x animation working on mobile */
+  [data-aos="scale-x-full"] {
+    transform: scaleX(0) !important;
+    transform-origin: left;
+    transition-property: transform !important;
+    opacity: 1 !important;
+  }
+
+  [data-aos="scale-x-full"].aos-animate {
+    transform: scaleX(1) !important;
+  }
+}
+
 /* Custom AOS Animation - Border Grow Left to Right */
 [data-aos="scale-x-full"] {
   transform: scaleX(0);

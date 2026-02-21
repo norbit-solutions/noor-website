@@ -184,7 +184,7 @@ export default function WhyChooseUs() {
         </div>
 
         {/* Bottom Stats */}
-        <div
+        {/* <div
           className="mt-24 grid grid-cols-2 md:grid-cols-4 gap-8 pt-16 border-t border-gray-100"
           data-aos="fade-up"
           data-aos-duration="1000"
@@ -204,7 +204,7 @@ export default function WhyChooseUs() {
               </span>
             </div>
           ))}
-        </div>
+        </div> */}
       </div>
     </section>
   );

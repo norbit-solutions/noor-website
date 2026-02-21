@@ -8,6 +8,10 @@ export default function SmoothScroll({ children }: SmoothScrollProps) {
   const lenisRef = useRef<Lenis | null>(null);
 
   useEffect(() => {
+    // Disable smooth scroll on mobile — native scroll feels better on touch devices
+    const isMobile = window.innerWidth < 768;
+    if (isMobile) return;
+
     lenisRef.current = new Lenis({
       duration: 1.2,
       easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)), // Exponential easing

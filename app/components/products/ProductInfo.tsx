@@ -61,7 +61,7 @@ export default function ProductInfo({ product }: ProductInfoProps) {
           data-aos-duration="800"
         >
           {/* Left: Title & Basic Info */}
-          <div>
+          <div className=" px-6 sm:px-8 lg:px-12">
             <h1 className="text-2xl sm:text-3xl font-medium text-black mb-4">
               {name}
             </h1>
@@ -86,7 +86,7 @@ export default function ProductInfo({ product }: ProductInfoProps) {
           </div>
 
           {/* Right: Description, Specs, CTA */}
-          <div>
+          <div className=" px-6 sm:px-8 lg:px-12">
             <div className="mb-10">
               <p className="text-sm text-gray-600 leading-relaxed">
                 {description}

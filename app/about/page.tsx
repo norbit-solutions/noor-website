@@ -14,7 +14,7 @@ export default function AboutPage() {
         title={t("heroTitle")}
         titleHighlight={t("heroTitleHighlight")}
         description={t("heroDescription")}
-        image="/images/banner.jpg"
+        image="/images/about-banner.jpg"
         stats={[
           { value: t("stats.foundedValue"), label: t("stats.founded") },
           { value: t("stats.clientsValue"), label: t("stats.clients") },

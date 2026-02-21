@@ -161,10 +161,16 @@ export default function Header() {
         {/* Center: Logo */}
         <Link
           href="/"
-          className={`absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 mt-2 transition-all duration-300`}
+          className={`absolute top-1/2 -translate-y-1/2 mt-2 transition-all duration-500 ease-out ${
+            isScrolled
+              ? "left-6 translate-x-0 md:left-1/2 md:-translate-x-1/2"
+              : !isHomePage
+                ? "left-6 translate-x-0 md:left-1/2 md:-translate-x-1/2"
+                : "left-1/2 -translate-x-1/2"
+          }`}
         >
           <div
-            className={`relative transition-all duration-1000!  ${isHomePage && !isScrolled ? "w-64 mt-14" : "w-32"}`}
+            className={`relative transition-all duration-1000!  ${isHomePage && !isScrolled ? "w-44 md:w-64 mt-14" : "w-32"}`}
           >
             <Image
               src="/images/white-logo.png"
@@ -182,7 +188,7 @@ export default function Header() {
               height={176}
               quality={100}
               priority
-              className={`absolute inset-0 w-full h-auto object-contain transition-opacity duration-700 ${isScrolled ? "opacity-100" : "opacity-0"}`}
+              className={`absolute  inset-0 w-full h-auto object-contain transition-opacity duration-700 ${isScrolled ? "opacity-100" : "opacity-0"}`}
             />
           </div>
         </Link>
