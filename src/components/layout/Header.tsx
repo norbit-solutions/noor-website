@@ -154,7 +154,7 @@ export default function Header() {
         // data-aos-once="true"
         className={`fixed top-0 left-0 right-0 z-50 flex transition-colors items-center justify-between px-6 py-8 ${
           isScrolled
-            ? "bg-white text-black shadow-sm  duration-100!"
+            ? "bg-white/96 text-black shadow-sm  duration-100!"
             : " bg-transparent text-white  duration-100!  "
         }`}
       >
@@ -170,7 +170,7 @@ export default function Header() {
           }`}
         >
           <div
-            className={`relative transition-all duration-1000!  ${isHomePage && !isScrolled ? "w-44 md:w-64 mt-14" : "w-32"}`}
+            className={`relative transition-all duration-1000!  ${isHomePage && !isScrolled ? "w-32 md:w-64 mt-14" : "w-18 -mt-3 md:-mt-4 md:w-32"}`}
           >
             <Image
               src="/images/white-logo.png"

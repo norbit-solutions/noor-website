@@ -256,6 +256,7 @@
       "agriculturalProducts": "Agricultural Products"
     },
     "company": {
+      "home": "Home",
       "title": "Company",
       "about": "About Us",
       "story": "Our Story",
@@ -370,6 +371,71 @@
       "satisfaction": "Satisfaction Rate",
       "satisfactionValue": "99%"
     }
+  },
+  "ContactPage": {
+    "heroSubtitle": "Contact Us",
+    "heroTitle": "Let's Connect",
+    "heroTitleHighlight": "We'd Love To Hear From You",
+    "heroDescription": "Whether you have questions about our products, need a custom quote, or want to discuss a potential partnership — we're here to help. Reach out to us and let's start a conversation.",
+    "stats": {
+      "responseValue": "<24h",
+      "response": "Response Time",
+      "clientsValue": "200+",
+      "clients": "Happy Clients",
+      "citiesValue": "10+",
+      "cities": "Cities Served",
+      "supportValue": "24/7",
+      "support": "Support"
+    },
+    "formSection": {
+      "subtitle": "Send Us A Message",
+      "title": "We're Here To Help",
+      "description": "Fill out the form below and our team will get back to you within 24 hours.",
+      "name": "Full Name",
+      "namePlaceholder": "John Doe",
+      "email": "Email Address",
+      "emailPlaceholder": "john@example.com",
+      "phone": "Phone Number",
+      "phonePlaceholder": "+236 00 00 00 00",
+      "subject": "Subject",
+      "subjectPlaceholder": "How can we help?",
+      "message": "Message",
+      "messagePlaceholder": "Tell us about your needs...",
+      "submit": "Send Message",
+      "sending": "Sending..."
+    },
+    "infoSection": {
+      "subtitle": "Contact Information",
+      "title": "Ways To Reach Us",
+      "address": {
+        "label": "Visit Us",
+        "line1": "Bangui, Central African Republic",
+        "line2": "Avenue des Martyrs"
+      },
+      "phone": {
+        "label": "Call Us",
+        "line1": "+236 72 00 00 00",
+        "line2": "+236 75 00 00 00"
+      },
+      "email": {
+        "label": "Email Us",
+        "line1": "contact@noor-rca.com",
+        "line2": "info@noor-rca.com"
+      },
+      "hours": {
+        "label": "Working Hours",
+        "line1": "Mon – Fri: 8:00 AM – 5:00 PM",
+        "line2": "Sat: 8:00 AM – 1:00 PM"
+      }
+    },
+    "mapSection": {
+      "subtitle": "Our Location",
+      "title": "Find Us In Bangui",
+      "description": "Located in the heart of Bangui, we are easily accessible for all your supply needs."
+    },
+    "ctaTitle": "Ready to get started?",
+    "ctaDescription": "Whether you need bulk supplies, specialized equipment, or a reliable distribution partner — we're just a message away.",
+    "ctaButton": "Call Us Now"
   },
   "LocaleSwitcher": {
     "fr": "Français",

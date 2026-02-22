@@ -66,7 +66,7 @@ export default function BulkOrders() {
 
             <Link
               href="/contact"
-              className="group inline-flex items-center gap-3 bg-white px-8 py-4 text-xs font-semibold uppercase tracking-widest text-black transition-all duration-300 hover:bg-gray-100"
+              className="group inline-flex items-center gap-3 bg-white px-8 py-4 text-xs font-semibold uppercase tracking-widest text-black transition-all duration-300 hover:bg-transparent hover:text-white border-2 border-white hover:border-white/50"
             >
               {t("requestQuote")}
               <svg
@@ -104,7 +104,7 @@ export default function BulkOrders() {
               ].map((item, index) => (
                 <div
                   key={index}
-                  className="group border border-gray-700 bg-black p-4 text-center transition-all duration-300 hover:border-white/30 hover:bg-gray-800"
+                  className="group border border-gray-700 cursor-grabbing bg-black p-4 text-center transition-all duration-300 hover:border-white/30 hover:bg-gray-800"
                   data-aos="zoom-in"
                   data-aos-delay={index * 100 + 200}
                 >

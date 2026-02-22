@@ -24,8 +24,9 @@ const FOOTER_LINKS = {
     },
   ],
   company: [
+    { key: "home" as const, href: "/" },
     { key: "about" as const, href: "/about" },
-    { key: "story" as const, href: "/about#story" },
+    // { key: "contact" as const, href: "/contact" },
     // { key: "careers" as const, href: "/careers" },
     // { key: "news" as const, href: "/news" },
   ],

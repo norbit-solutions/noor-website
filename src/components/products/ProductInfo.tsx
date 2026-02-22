@@ -114,15 +114,22 @@ export default function ProductInfo({ product }: ProductInfoProps) {
             <div className="flex flex-col gap-4">
               <Link
                 href="/#contact"
-                className="w-full flex items-center justify-center bg-black text-white px-8 py-4 text-sm font-bold uppercase tracking-widest hover:bg-gray-800 transition-colors"
+                className="w-full flex items-center justify-center bg-black text-white px-8 py-4 text-sm font-bold uppercase tracking-widest border border-black relative overflow-hidden group transition-colors"
               >
-                {t("requestQuote")}
+                <span className="absolute inset-0 bg-white translate-x-[-100%] group-hover:translate-x-0 transition-transform duration-500 ease-in-out" />
+                <span className="relative z-10 group-hover:text-black transition-colors duration-500">
+                  {t("requestQuote")}
+                </span>
               </Link>
               <Link
                 href="/#contact"
-                className="w-full flex items-center justify-center border border-black text-black px-8 py-4 text-sm font-bold uppercase tracking-widest hover:bg-gray-50 transition-colors"
+                className="w-full flex items-center justify-center border border-black text-black px-8 py-4 text-sm font-bold uppercase tracking-widest hover:bg-gray-50 relative overflow-hidden group transition-colors"
               >
-                {t("contactUs")}
+                <span className="absolute inset-0 bg-black translate-x-[-100%] group-hover:translate-x-0 transition-transform duration-500 ease-in-out" />
+
+                <span className="relative z-10 group-hover:text-white transition-colors duration-500">
+                  {t("contactUs")}
+                </span>
               </Link>
             </div>
           </div>

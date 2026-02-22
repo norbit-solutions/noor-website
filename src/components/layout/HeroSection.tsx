@@ -90,11 +90,14 @@ export default function HeroSection() {
             <div ref={ctaRef} className="flex flex-wrap gap-4">
               <Link
                 href="/categories"
-                className="group inline-flex items-center gap-3 bg-white px-8 py-4 text-xs font-semibold uppercase tracking-widest text-black transition-all duration-300 hover:bg-gray-100"
+                className="group inline-flex relative overflow-hidden group items-center gap-3 bg-white px-8 py-4 text-xs font-semibold uppercase tracking-widest text-black transition-all duration-300 hover:border hover:border-white"
               >
-                {t("exploreCta")}
+                <span className="absolute inset-0 bg-black translate-x-[-100%] group-hover:translate-x-0 transition-transform duration-500 ease-in-out" />
+                <span className="relative z-10 group-hover:text-white transition-colors duration-500">
+                  {t("exploreCta")}
+                </span>
                 <svg
-                  className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1"
+                  className="h-4 w-4 transition-all group-hover:text-white  group-hover:translate-x-1"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"

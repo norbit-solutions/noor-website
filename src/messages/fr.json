@@ -257,6 +257,7 @@
     },
     "company": {
       "title": "Entreprise",
+      "home": "Accueil",
       "about": "À Propos",
       "story": "Notre Histoire",
       "careers": "Carrières",
@@ -368,6 +369,71 @@
       "satisfaction": "Taux de Satisfaction",
       "satisfactionValue": "99%"
     }
+  },
+  "ContactPage": {
+    "heroSubtitle": "Contactez-Nous",
+    "heroTitle": "Travaillons",
+    "heroTitleHighlight": "Ensemble",
+    "heroDescription": "Une question, besoin d'un devis ou envie de discuter d'un partenariat ? Nous serions ravis de vous entendre.",
+    "stats": {
+      "responseValue": "<24h",
+      "response": "Temps de Réponse",
+      "clientsValue": "200+",
+      "clients": "Clients Satisfaits",
+      "citiesValue": "10+",
+      "cities": "Villes Desservies",
+      "supportValue": "24/7",
+      "support": "Support"
+    },
+    "formSection": {
+      "subtitle": "Envoyez-Nous Un Message",
+      "title": "Nous Sommes Là Pour Vous Aider",
+      "description": "Remplissez le formulaire ci-dessous et notre équipe vous répondra dans les 24 heures.",
+      "name": "Nom Complet",
+      "namePlaceholder": "Jean Dupont",
+      "email": "Adresse Email",
+      "emailPlaceholder": "jean@exemple.com",
+      "phone": "Numéro de Téléphone",
+      "phonePlaceholder": "+236 00 00 00 00",
+      "subject": "Sujet",
+      "subjectPlaceholder": "Comment pouvons-nous vous aider ?",
+      "message": "Message",
+      "messagePlaceholder": "Parlez-nous de vos besoins...",
+      "submit": "Envoyer le Message",
+      "sending": "Envoi en cours..."
+    },
+    "infoSection": {
+      "subtitle": "Informations de Contact",
+      "title": "Moyens de Nous Joindre",
+      "address": {
+        "label": "Rendez-Nous Visite",
+        "line1": "Bangui, République Centrafricaine",
+        "line2": "Avenue des Martyrs"
+      },
+      "phone": {
+        "label": "Appelez-Nous",
+        "line1": "+236 72 00 00 00",
+        "line2": "+236 75 00 00 00"
+      },
+      "email": {
+        "label": "Écrivez-Nous",
+        "line1": "contact@noor-rca.com",
+        "line2": "info@noor-rca.com"
+      },
+      "hours": {
+        "label": "Heures d'Ouverture",
+        "line1": "Lun – Ven : 8h00 – 17h00",
+        "line2": "Sam : 8h00 – 13h00"
+      }
+    },
+    "mapSection": {
+      "subtitle": "Notre Emplacement",
+      "title": "Trouvez-Nous à Bangui",
+      "description": "Situés au cœur de Bangui, nous sommes facilement accessibles pour tous vos besoins en fournitures."
+    },
+    "ctaTitle": "Prêt à commencer ?",
+    "ctaDescription": "Que vous ayez besoin de fournitures en gros, d'équipements spécialisés ou d'un partenaire de distribution fiable — nous ne sommes qu'à un message.",
+    "ctaButton": "Appelez-Nous"
   },
   "LocaleSwitcher": {
     "fr": "Français",

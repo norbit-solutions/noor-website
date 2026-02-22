@@ -7,7 +7,7 @@ export default function OurStory() {
   const t = useTranslations("AboutPage");
 
   return (
-    <section className="py-24 lg:py-32 bg-white overflow-hidden">
+    <section id="story" className="py-24 lg:py-32 bg-white overflow-hidden">
       <div className="px-6 sm:px-12 lg:px-20">
         <div className="grid lg:grid-cols-2 gap-16 lg:gap-24 items-center">
           {/* Left: Content */}
@@ -84,7 +84,7 @@ export default function OurStory() {
               data-aos-duration="1000"
             >
               <Image
-                src="/images/categories/electronics.jpg"
+                src="/images/missionvision.jpg"
                 alt="Our warehouse"
                 fill
                 className="object-cover"
