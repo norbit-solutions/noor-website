@@ -2,37 +2,13 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useTranslations } from "next-intl";
-
-const CATEGORIES = [
-  {
-    id: 1,
-    key: "generalSupplies" as const,
-    image: "/images/categories/electronics.jpg",
-    link: "/categories/general-supplies",
-  },
-  {
-    id: 2,
-    key: "professionalEquipment" as const,
-    image: "/images/categories/car-parts.jpg",
-    link: "/categories/professional-equipment",
-  },
-  {
-    id: 3,
-    key: "technicalMaterials" as const,
-    image: "/images/categories/stationery.jpg",
-    link: "/categories/technical-materials",
-  },
-  {
-    id: 4,
-    key: "agriculturalProducts" as const,
-    image: "/images/categories/food-tin.jpg",
-    link: "/categories/agricultural-products",
-  },
-];
+import { useTranslations, useLocale } from "next-intl";
+import { getCategories } from "@/data/products";
 
 export default function FeaturedCategories() {
   const t = useTranslations("FeaturedCategories");
+  const locale = useLocale();
+  const categories = getCategories(locale);
 
   return (
     <section className="relative bg-white my-20 -pb-20 px-6 py-12 flex flex-col gap-16 sm:px-12 md:px-16 lg:px-20">
@@ -52,10 +28,10 @@ export default function FeaturedCategories() {
 
       {/* Grid */}
       <div className="grid grid-cols-2  gap-4 sm:grid-cols-2 lg:grid-cols-4">
-        {CATEGORIES.map((category, index) => (
+        {categories.map((category, index) => (
           <Link
-            key={category.id}
-            href={category.link}
+            key={category.key}
+            href={`/categories/${category.slug}`}
             className="group block"
             data-aos="fade-up"
             data-aos-delay={index * 100}
@@ -64,17 +40,16 @@ export default function FeaturedCategories() {
             <div className="relative aspect-3/4 w-full overflow-hidden bg-gray-100">
               <Image
                 src={category.image}
-                alt={t(`categories.${category.key}`)}
+                alt={category.name}
                 fill
                 className="object-cover transition-transform duration-700 group-hover:scale-105"
-                // sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
               />
             </div>
 
             {/* Title */}
             <div className="mt-6 text-center">
               <span className="text-sm font-medium tracking-wide text-black transition-colors group-hover:text-gray-600">
-                {t(`categories.${category.key}`)}
+                {category.name}
               </span>
             </div>
           </Link>

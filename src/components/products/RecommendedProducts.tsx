@@ -1,21 +1,20 @@
 "use client";
 
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import { getRecommendedProducts } from "@/data/products";
 import ProductCard from "./ProductCard";
 
 interface RecommendedProductsProps {
   currentId: string;
-  categorySlug?: string;
 }
 
 export default function RecommendedProducts({
   currentId,
-  categorySlug,
 }: RecommendedProductsProps) {
   const t = useTranslations("ProductDetail");
+  const locale = useLocale();
 
-  const products = getRecommendedProducts(currentId, undefined, 4);
+  const products = getRecommendedProducts(currentId, locale, undefined, 4);
 
   if (products.length === 0) return null;
 
@@ -35,12 +34,7 @@ export default function RecommendedProducts({
         {/* Grid */}
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-x-1 gap-y-12">
           {products.map((product, index) => (
-            <ProductCard
-              key={product.id}
-              product={product}
-              index={index}
-              categorySlug={categorySlug}
-            />
+            <ProductCard key={product.id} product={product} index={index} />
           ))}
         </div>
       </div>

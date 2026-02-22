@@ -30,64 +30,14 @@
   },
   "FeaturedCategories": {
     "title": "Our Categories",
-    "seeAll": "See All Categories",
-    "categories": {
-      "generalSupplies": "General Supplies",
-      "professionalEquipment": "Professional Equipment",
-      "technicalMaterials": "Technical Materials",
-      "agriculturalProducts": "Seeds & Agricultural Products"
-    }
+    "seeAll": "See All Categories"
   },
   "FeaturedProducts": {
     "subtitle": "Product Selection",
     "title": "Featured Products",
     "viewAll": "View All Products",
     "viewDetails": "View Details",
-    "new": "New",
-    "products": {
-      "paperReam": {
-        "name": "A4 Paper Ream",
-        "category": "General Supplies"
-      },
-      "printer": {
-        "name": "Multifunction Printer",
-        "category": "Professional Equipment"
-      },
-      "generator": {
-        "name": "Power Generator",
-        "category": "Technical Materials"
-      },
-      "cornSeeds": {
-        "name": "Certified Corn Seeds",
-        "category": "Agricultural Products"
-      },
-      "inkCartridges": {
-        "name": "Ink Cartridges",
-        "category": "General Supplies"
-      },
-      "officeFurniture": {
-        "name": "Office Furniture",
-        "category": "Professional Equipment"
-      },
-      "technicalTools": {
-        "name": "Technical Tools",
-        "category": "Technical Materials"
-      },
-      "fertilizer": {
-        "name": "NPK Fertilizer",
-        "category": "Agricultural Products"
-      }
-    },
-    "descriptions": {
-      "paperReamDesc": "Premium quality A4 paper reams, perfect for office printing, photocopying, and everyday documentation needs. Bright white finish with excellent ink absorption.",
-      "printerDesc": "High-performance multifunction laser printer with print, scan, copy, and fax capabilities. Ideal for busy office environments requiring reliable, fast output.",
-      "generatorDesc": "Robust diesel power generator designed for reliable backup power. Perfect for businesses, construction sites, and remote locations requiring consistent electricity.",
-      "cornSeedsDesc": "Certified hybrid corn seeds with excellent germination rates. Specially selected for Central African growing conditions, ensuring high yields and disease resistance.",
-      "inkCartridgesDesc": "Universal compatible ink cartridges offering exceptional print quality at competitive prices. High-yield design for cost-effective printing.",
-      "officeFurnitureDesc": "Professional executive office desk crafted from premium materials. Ergonomic design with ample workspace and storage, combining style with functionality.",
-      "technicalToolsDesc": "Professional-grade 52-piece tool set in a heavy-duty carry case. Chrome vanadium steel construction for durability and precision in demanding applications.",
-      "fertilizerDesc": "Balanced NPK 15-15-15 slow-release fertilizer suitable for all crop types. Promotes healthy plant growth, strong root development, and improved yields."
-    }
+    "new": "New"
   },
   "WhyChooseUs": {
     "subtitle": "Why Choose Us",
@@ -297,13 +247,7 @@
     "showing": "Showing",
     "of": "of",
     "products": "products",
-    "new": "New",
-    "categories": {
-      "generalSupplies": "General Supplies",
-      "professionalEquipment": "Professional Equipment",
-      "technicalMaterials": "Technical Materials",
-      "agriculturalProducts": "Agricultural Products"
-    }
+    "new": "New"
   },
   "ProductDetail": {
     "backToProducts": "Back to Products",

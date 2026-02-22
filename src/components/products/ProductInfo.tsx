@@ -11,11 +11,10 @@ interface ProductInfoProps {
 
 export default function ProductInfo({ product }: ProductInfoProps) {
   const t = useTranslations("ProductDetail");
-  const pt = useTranslations("FeaturedProducts");
 
-  const name = pt(`products.${product.nameKey}.name`);
-  const category = pt(`products.${product.nameKey}.category`);
-  const description = pt(`descriptions.${product.descriptionKey}`);
+  const name = product.name;
+  const category = product.categoryName;
+  const description = product.description;
 
   return (
     <section className="bg-white">

@@ -1,29 +1,25 @@
 "use client";
 
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
+import { getCategoryBySlug } from "@/data/products";
 import SecondaryHero from "../layout/SecondaryHero";
 
-const CATEGORY_IMAGES: Record<string, string> = {
-  generalSupplies: "/images/categories/stationery.jpg",
-  professionalEquipment: "/images/categories/electronics.jpg",
-  technicalMaterials: "/images/categories/car-parts.jpg",
-  agriculturalProducts: "/images/categories/food-tin.jpg",
-};
-
 interface CategoryHeroProps {
-  categoryKey: string;
+  categorySlug: string;
 }
 
-export default function CategoryHero({ categoryKey }: CategoryHeroProps) {
+export default function CategoryHero({ categorySlug }: CategoryHeroProps) {
   const t = useTranslations("ProductsPage");
+  const locale = useLocale();
+  const category = getCategoryBySlug(categorySlug, locale);
 
   return (
     <SecondaryHero
       subtitle={t("heroSubtitle")}
-      title={t(`categories.${categoryKey}`)}
+      title={category?.name ?? ""}
       titleHighlight={t("heroTitleHighlight")}
       description={t("heroDescription")}
-      image={CATEGORY_IMAGES[categoryKey] || "/images/product-banner.jpg"}
+      image={category?.image ?? "/images/product-banner.jpg"}
     />
   );
 }

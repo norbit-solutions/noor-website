@@ -8,19 +8,19 @@ const FOOTER_LINKS = {
   categories: [
     {
       key: "generalSupplies" as const,
-      href: "/categories/fournitures-generales",
+      href: "/categories/general-supplies",
     },
     {
       key: "professionalEquipment" as const,
-      href: "/categories/equipements-professionnels",
+      href: "/categories/professional-equipment",
     },
     {
       key: "technicalMaterials" as const,
-      href: "/categories/materiels-techniques",
+      href: "/categories/technical-materials",
     },
     {
       key: "agriculturalProducts" as const,
-      href: "/categories/produits-agricoles",
+      href: "/categories/agricultural-products",
     },
   ],
   company: [

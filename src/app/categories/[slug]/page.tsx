@@ -2,6 +2,7 @@
 
 import { use } from "react";
 import { notFound } from "next/navigation";
+import { useLocale } from "next-intl";
 import { getCategoryBySlug } from "@/data/products";
 import CategoryHero from "@/components/products/CategoryHero";
 import ProductGrid from "@/components/products/ProductGrid";
@@ -13,7 +14,8 @@ export default function CategoryPage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = use(params);
-  const category = getCategoryBySlug(slug);
+  const locale = useLocale();
+  const category = getCategoryBySlug(slug, locale);
 
   if (!category) {
     notFound();
@@ -21,7 +23,7 @@ export default function CategoryPage({
 
   return (
     <main>
-      <CategoryHero categoryKey={category.key} />
+      <CategoryHero categorySlug={slug} />
       <ProductGrid categorySlug={slug} />
       <Footer />
     </main>

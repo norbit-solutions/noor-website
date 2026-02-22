@@ -1,0 +1,178 @@
+[
+  {
+    "id": "1",
+    "slug": "a4-paper-ream",
+    "name": "A4 Paper Ream",
+    "categoryKey": "generalSupplies",
+    "categorySlug": "general-supplies",
+    "categoryName": "General Supplies",
+    "description": "Premium quality A4 paper reams, perfect for office printing, photocopying, and everyday documentation needs. Bright white finish with excellent ink absorption.",
+    "images": [
+      "/images/categories/stationery.jpg",
+      "/images/categories/electronics.jpg"
+    ],
+    "sku": "MN-GS-001",
+    "inStock": true,
+    "isNew": false,
+    "specs": [
+      { "label": "Size", "value": "A4 (210 x 297mm)" },
+      { "label": "Weight", "value": "80 gsm" },
+      { "label": "Sheets", "value": "500 per ream" },
+      { "label": "Color", "value": "White" }
+    ]
+  },
+  {
+    "id": "2",
+    "slug": "multifunction-printer",
+    "name": "Multifunction Printer",
+    "categoryKey": "professionalEquipment",
+    "categorySlug": "professional-equipment",
+    "categoryName": "Professional Equipment",
+    "description": "High-performance multifunction laser printer with print, scan, copy, and fax capabilities. Ideal for busy office environments requiring reliable, fast output.",
+    "images": [
+      "/images/categories/electronics.jpg",
+      "/images/categories/stationery.jpg"
+    ],
+    "sku": "MN-PE-001",
+    "inStock": true,
+    "isNew": true,
+    "specs": [
+      { "label": "Type", "value": "Laser Multifunction" },
+      { "label": "Functions", "value": "Print, Scan, Copy, Fax" },
+      { "label": "Speed", "value": "30 ppm" },
+      { "label": "Connectivity", "value": "USB, WiFi, Ethernet" }
+    ]
+  },
+  {
+    "id": "3",
+    "slug": "power-generator",
+    "name": "Power Generator",
+    "categoryKey": "technicalMaterials",
+    "categorySlug": "technical-materials",
+    "categoryName": "Technical Materials",
+    "description": "Robust diesel power generator designed for reliable backup power. Perfect for businesses, construction sites, and remote locations requiring consistent electricity.",
+    "images": [
+      "/images/categories/car-parts.jpg",
+      "/images/categories/electronics.jpg"
+    ],
+    "sku": "MN-TM-001",
+    "inStock": true,
+    "isNew": false,
+    "specs": [
+      { "label": "Power", "value": "5000W" },
+      { "label": "Fuel", "value": "Diesel" },
+      { "label": "Runtime", "value": "12 hours" },
+      { "label": "Noise Level", "value": "68 dB" }
+    ]
+  },
+  {
+    "id": "4",
+    "slug": "certified-corn-seeds",
+    "name": "Certified Corn Seeds",
+    "categoryKey": "agriculturalProducts",
+    "categorySlug": "agricultural-products",
+    "categoryName": "Agricultural Products",
+    "description": "Certified hybrid corn seeds with excellent germination rates. Specially selected for Central African growing conditions, ensuring high yields and disease resistance.",
+    "images": [
+      "/images/categories/food-tin.jpg",
+      "/images/categories/stationery.jpg"
+    ],
+    "sku": "MN-AP-001",
+    "inStock": true,
+    "isNew": false,
+    "specs": [
+      { "label": "Type", "value": "Hybrid Corn Seeds" },
+      { "label": "Certification", "value": "Certified Grade A" },
+      { "label": "Weight", "value": "25 kg bag" },
+      { "label": "Germination", "value": "95%+" }
+    ]
+  },
+  {
+    "id": "5",
+    "slug": "ink-cartridges",
+    "name": "Ink Cartridges",
+    "categoryKey": "generalSupplies",
+    "categorySlug": "general-supplies",
+    "categoryName": "General Supplies",
+    "description": "Universal compatible ink cartridges offering exceptional print quality at competitive prices. High-yield design for cost-effective printing.",
+    "images": [
+      "/images/categories/stationery.jpg",
+      "/images/categories/electronics.jpg"
+    ],
+    "sku": "MN-GS-002",
+    "inStock": true,
+    "isNew": true,
+    "specs": [
+      { "label": "Type", "value": "Compatible Ink" },
+      { "label": "Colors", "value": "Black, Cyan, Magenta, Yellow" },
+      { "label": "Yield", "value": "2000 pages" },
+      { "label": "Compatibility", "value": "Universal" }
+    ]
+  },
+  {
+    "id": "6",
+    "slug": "office-furniture",
+    "name": "Office Furniture",
+    "categoryKey": "professionalEquipment",
+    "categorySlug": "professional-equipment",
+    "categoryName": "Professional Equipment",
+    "description": "Professional executive office desk crafted from premium materials. Ergonomic design with ample workspace and storage, combining style with functionality.",
+    "images": [
+      "/images/categories/electronics.jpg",
+      "/images/categories/car-parts.jpg"
+    ],
+    "sku": "MN-PE-002",
+    "inStock": true,
+    "isNew": false,
+    "specs": [
+      { "label": "Material", "value": "High-grade MDF & Steel" },
+      { "label": "Type", "value": "Executive Desk" },
+      { "label": "Dimensions", "value": "160 x 80 x 75 cm" },
+      { "label": "Color", "value": "Walnut / Black" }
+    ]
+  },
+  {
+    "id": "7",
+    "slug": "technical-tools",
+    "name": "Technical Tools",
+    "categoryKey": "technicalMaterials",
+    "categorySlug": "technical-materials",
+    "categoryName": "Technical Materials",
+    "description": "Professional-grade 52-piece tool set in a heavy-duty carry case. Chrome vanadium steel construction for durability and precision in demanding applications.",
+    "images": [
+      "/images/categories/car-parts.jpg",
+      "/images/categories/food-tin.jpg"
+    ],
+    "sku": "MN-TM-002",
+    "inStock": true,
+    "isNew": false,
+    "specs": [
+      { "label": "Set", "value": "Professional 52-piece" },
+      { "label": "Material", "value": "Chrome Vanadium Steel" },
+      { "label": "Case", "value": "Heavy-duty carry case" },
+      { "label": "Warranty", "value": "2 years" }
+    ]
+  },
+  {
+    "id": "8",
+    "slug": "npk-fertilizer",
+    "name": "NPK Fertilizer",
+    "categoryKey": "agriculturalProducts",
+    "categorySlug": "agricultural-products",
+    "categoryName": "Agricultural Products",
+    "description": "Balanced NPK 15-15-15 slow-release fertilizer suitable for all crop types. Promotes healthy plant growth, strong root development, and improved yields.",
+    "images": [
+      "/images/categories/food-tin.jpg",
+      "/images/categories/car-parts.jpg"
+    ],
+    "sku": "MN-AP-002",
+    "inStock": true,
+    "isNew": true,
+    "specs": [
+      { "label": "Formula", "value": "NPK 15-15-15" },
+      { "label": "Weight", "value": "50 kg bag" },
+      { "label": "Application", "value": "All crops" },
+      { "label": "Release", "value": "Slow release" }
+    ]
+  }
+]

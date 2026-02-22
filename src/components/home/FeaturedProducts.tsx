@@ -1,15 +1,18 @@
 "use client";
 
 import Link from "next/link";
-import { useTranslations } from "next-intl";
-import { PRODUCTS } from "@/data/products";
+import { useTranslations, useLocale } from "next-intl";
+import { getProducts } from "@/data/products";
 import ProductCard from "../products/ProductCard";
 
 const FEATURED_IDS = ["1", "2", "4", "6", "7"];
-const featuredProducts = PRODUCTS.filter((p) => FEATURED_IDS.includes(p.id));
 
 export default function FeaturedProducts() {
   const t = useTranslations("FeaturedProducts");
+  const locale = useLocale();
+  const featuredProducts = getProducts(locale).filter((p) =>
+    FEATURED_IDS.includes(p.id),
+  );
   return (
     <section className="relative bg-white mb-20 -pb-20 px-6 py-12 flex flex-col gap-16 sm:px-12 md:px-16 lg:px-20">
       <div

@@ -1,10 +1,10 @@
 "use client";
 
 import { useState, useMemo } from "react";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import {
-  PRODUCTS,
-  CATEGORIES,
+  getProducts,
+  getCategories,
   getProductsByCategory,
   getCategoryBySlug,
 } from "@/data/products";
@@ -16,12 +16,15 @@ interface ProductGridProps {
 
 export default function ProductGrid({ categorySlug }: ProductGridProps) {
   const t = useTranslations("ProductsPage");
-  const pt = useTranslations("FeaturedProducts");
+  const locale = useLocale();
 
-  const category = categorySlug ? getCategoryBySlug(categorySlug) : undefined;
+  const allCategories = getCategories(locale);
+  const category = categorySlug
+    ? getCategoryBySlug(categorySlug, locale)
+    : undefined;
   const baseProducts = category
-    ? getProductsByCategory(category.key)
-    : PRODUCTS;
+    ? getProductsByCategory(category.key, locale)
+    : getProducts(locale);
 
   const [search, setSearch] = useState("");
   const [activeCategory, setActiveCategory] = useState("all");
@@ -40,29 +43,21 @@ export default function ProductGrid({ categorySlug }: ProductGridProps) {
     if (search.trim()) {
       const query = search.toLowerCase();
       results = results.filter((p) => {
-        const name = pt(`products.${p.nameKey}.name`).toLowerCase();
-        const category = pt(`products.${p.nameKey}.category`).toLowerCase();
-        return name.includes(query) || category.includes(query);
+        const name = p.name.toLowerCase();
+        const cat = p.categoryName.toLowerCase();
+        return name.includes(query) || cat.includes(query);
       });
     }
 
     // Sort
     if (sortBy === "nameAsc") {
-      results.sort((a, b) =>
-        pt(`products.${a.nameKey}.name`).localeCompare(
-          pt(`products.${b.nameKey}.name`),
-        ),
-      );
+      results.sort((a, b) => a.name.localeCompare(b.name));
     } else if (sortBy === "nameDesc") {
-      results.sort((a, b) =>
-        pt(`products.${b.nameKey}.name`).localeCompare(
-          pt(`products.${a.nameKey}.name`),
-        ),
-      );
+      results.sort((a, b) => b.name.localeCompare(a.name));
     }
 
     return results;
-  }, [search, activeCategory, sortBy, pt, baseProducts, categorySlug]);
+  }, [search, activeCategory, sortBy, baseProducts, categorySlug]);
 
   return (
     <section className="py-12 lg:py-16 bg-white">
@@ -176,7 +171,7 @@ export default function ProductGrid({ categorySlug }: ProductGridProps) {
                 >
                   {t("allCategories")}
                 </button>
-                {CATEGORIES.map((cat) => (
+                {allCategories.map((cat) => (
                   <button
                     key={cat.key}
                     onClick={() => setActiveCategory(cat.key)}
@@ -186,7 +181,7 @@ export default function ProductGrid({ categorySlug }: ProductGridProps) {
                         : "bg-gray-100 text-gray-600 hover:bg-gray-200"
                     }`}
                   >
-                    {t(`categories.${cat.key}`)}
+                    {cat.name}
                   </button>
                 ))}
               </div>

@@ -1,0 +1,30 @@
+[
+  {
+    "key": "generalSupplies",
+    "slug": "general-supplies",
+    "name": "Fournitures Générales",
+    "description": "Fournitures essentielles pour les opérations quotidiennes de bureau et d'entreprise.",
+    "image": "/images/categories/electronics.jpg"
+  },
+  {
+    "key": "professionalEquipment",
+    "slug": "professional-equipment",
+    "name": "Équipements Professionnels",
+    "description": "Équipements haute performance pour les environnements professionnels.",
+    "image": "/images/categories/car-parts.jpg"
+  },
+  {
+    "key": "technicalMaterials",
+    "slug": "technical-materials",
+    "name": "Matériels Techniques",
+    "description": "Outils et matériaux fiables pour les applications techniques.",
+    "image": "/images/categories/stationery.jpg"
+  },
+  {
+    "key": "agriculturalProducts",
+    "slug": "agricultural-products",
+    "name": "Semences & Produits Agricoles",
+    "description": "Semences certifiées, engrais et intrants agricoles.",
+    "image": "/images/categories/food-tin.jpg"
+  }
+]

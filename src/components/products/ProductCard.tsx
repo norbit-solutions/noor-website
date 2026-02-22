@@ -17,11 +17,10 @@ export default function ProductCard({
   categorySlug,
 }: ProductCardProps) {
   const t = useTranslations("ProductsPage");
-  const pt = useTranslations("FeaturedProducts");
 
   return (
     <Link
-      href={`/categories/${categorySlug || product.category}/${product.slug}`}
+      href={`/categories/${categorySlug || product.categorySlug}/${product.slug}`}
       className="group block"
       data-aos="fade-up"
       data-aos-delay={Math.min(index * 80, 400)}
@@ -30,7 +29,7 @@ export default function ProductCard({
       <div className="relative aspect-[4/5] w-full bg-[#f6f6f6] overflow-hidden mb-4">
         <Image
           src={product.images[0]}
-          alt={pt(`products.${product.nameKey}.name`)}
+          alt={product.name}
           fill
           className="object-cover transition-transform duration-700 group-hover:scale-105"
           sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
@@ -54,10 +53,10 @@ export default function ProductCard({
       {/* Info */}
       <div className="px-1">
         <h3 className="text-sm font-medium text-black group-hover:text-gray-600 transition-colors">
-          {pt(`products.${product.nameKey}.name`)}
+          {product.name}
         </h3>
         <span className="text-sm text-gray-500 mt-1 block">
-          {pt(`products.${product.nameKey}.category`)}
+          {product.categoryName}
         </span>
       </div>
     </Link>
