@@ -100,9 +100,9 @@ export default function Footer() {
       <div className="px-6 py-8  sm:px-12 md:px-16 lg:px-20">
         <div className="grid gap-12 lg:grid-cols-5">
           {/* Brand Column */}
-          <div className="lg:col-span-2 -mt-20 " data-aos="fade-up">
+          <div className="lg:col-span-2 " data-aos="fade-up">
             <Link href="/" className="inline-block">
-              <div className="relative scale-105 w-34 h-24 md:h-48 md:w-78 ">
+              <div className="relative scale-105 w-34 h-24 md:h-38 md:w-48 ">
                 <Image
                   src="/images/logo/white-logo.png"
                   alt="NOOR"
