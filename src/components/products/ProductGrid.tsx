@@ -224,7 +224,7 @@ export default function ProductGrid({ categorySlug }: ProductGridProps) {
             <h3 className="text-xl font-semibold text-black mb-2">
               {t("noResults")}
             </h3>
-            <p className="text-gray-500 mb-8">{t("noResultsDescription")}</p>
+            <p className="text-[#06ac5e] mb-8">{t("noResultsDescription")}</p>
             <button
               onClick={() => {
                 setSearch("");

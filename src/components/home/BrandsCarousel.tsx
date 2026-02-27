@@ -21,7 +21,7 @@ export default function BrandsCarousel() {
     <section className="overflow-hidden bg-gray-50 px-6 py-24 sm:px-12 md:px-16 lg:px-20">
       {/* Section Header */}
       <div className="mb-16 text-center" data-aos="fade-right">
-        <span className="mb-4 inline-block text-xs font-medium uppercase tracking-[0.3em] text-gray-500">
+        <span className="mb-4 inline-block text-xs font-medium uppercase tracking-[0.3em] text-[#06ac5e]">
           {t("subtitle")}
         </span>
         <h2 className="text-stylish text-black">{t("title")}</h2>
@@ -77,9 +77,9 @@ export default function BrandsCarousel() {
         data-aos="fade-top"
         data-aos-delay="400"
       >
-        <p className="text-sm text-gray-500">
+        <p className="text-sm text-[#06ac5e]">
           {t("partnering")}{" "}
-          <span className="font-semibold text-black">{t("brandsCount")}</span>{" "}
+          <span className="font-semibold ">{t("brandsCount")}</span>{" "}
           {t("brandsLabel")}
         </p>
       </div>

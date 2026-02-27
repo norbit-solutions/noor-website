@@ -112,7 +112,7 @@ export default function BulkOrders() {
                   <h4 className="text-sm font-semibold text-white">
                     {t(`services.${item.key}.title`)}
                   </h4>
-                  <p className="mt-1 text-[10px] uppercase tracking-wider text-gray-500">
+                  <p className="mt-1 text-[10px] uppercase tracking-wider text-[#06ac5e]">
                     {t(`services.${item.key}.desc`)}
                   </p>
                 </div>
@@ -121,7 +121,7 @@ export default function BulkOrders() {
 
             {/* Contact Info */}
             <div className="mt-8 border-t border-gray-800 pt-6 text-center">
-              <span className="text-xs text-gray-500">
+              <span className="text-xs text-white uppercase">
                 {t("callForInquiries")}
               </span>
               <p className="mt-1 text-lg font-bold tracking-widest text-white">

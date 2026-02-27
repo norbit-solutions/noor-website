@@ -15,7 +15,7 @@ export default function Newsletter() {
   };
 
   return (
-    <section className="relative overflow-hidden bg-gray-50 px-6 py-24 sm:px-12 md:px-16 lg:px-20">
+    <section className="relative overflow-hidden bg-white px-6 py-24 sm:px-12 md:px-16 lg:px-20">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-5">
         <div
@@ -30,7 +30,7 @@ export default function Newsletter() {
       <div className="relative z-10 mx-auto max-w-2xl text-center">
         {/* Section Header */}
         <div className="mb-10" data-aos="fade-right">
-          <span className="mb-4 inline-block text-xs font-medium uppercase tracking-[0.3em] text-gray-500">
+          <span className="mb-4 inline-block text-xs font-medium uppercase tracking-[0.3em] text-[#06ac5e]">
             {t("subtitle")}
           </span>
           <h2 className="text-stylish mb-4 text-black">{t("title")}</h2>

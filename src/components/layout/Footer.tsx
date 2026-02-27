@@ -97,17 +97,17 @@ export default function Footer() {
   return (
     <footer className="bg-black text-white">
       {/* Main Footer */}
-      <div className="px-6 py-16 sm:px-12 md:px-16 lg:px-20">
+      <div className="px-6 py-8  sm:px-12 md:px-16 lg:px-20">
         <div className="grid gap-12 lg:grid-cols-5">
           {/* Brand Column */}
-          <div className="lg:col-span-2" data-aos="fade-up">
+          <div className="lg:col-span-2 -mt-20 " data-aos="fade-up">
             <Link href="/" className="inline-block">
-              <div className="relative scale-105 h-46 w-32">
+              <div className="relative scale-105 w-34 h-24 md:h-48 md:w-78 ">
                 <Image
-                  src="/images/white-logo.png"
+                  src="/images/logo/white-logo.png"
                   alt="NOOR"
                   fill
-                  className="object-contain object-left"
+                  className="object-cover object-center "
                 />
               </div>
             </Link>
@@ -121,7 +121,7 @@ export default function Footer() {
                 <a
                   key={social.name}
                   href={social.href}
-                  className="flex h-10 w-10 items-center justify-center border border-gray-800 text-gray-500 transition-all duration-300 hover:border-white hover:text-white"
+                  className="flex h-10 w-10 items-center justify-center border border-gray-800 text-[#06ac5e] transition-all duration-300 hover:border-white hover:text-white"
                   aria-label={social.name}
                 >
                   {social.icon}
@@ -190,7 +190,7 @@ export default function Footer() {
       {/* Bottom Bar */}
       <div className="border-t border-gray-800 px-6 py-6 sm:px-12 md:px-16 lg:px-20">
         <div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
-          <p className="text-xs text-gray-500">
+          <p className="text-xs text-white">
             {t("copyright", { year: new Date().getFullYear() })}
           </p>
           <div className="flex gap-6 justify-center items-center">
@@ -198,7 +198,7 @@ export default function Footer() {
               <Link
                 key={link.key}
                 href={link.href}
-                className="text-xs text-gray-500 transition-colors duration-300 hover:text-white"
+                className="text-xs text-white transition-colors duration-300 hover:text-white"
               >
                 {t(`legal.${link.key}`)}
               </Link>

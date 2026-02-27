@@ -24,7 +24,7 @@ export default function Statistics() {
       <div className="relative z-10">
         {/* Section Header */}
         <div className="mb-16 text-center" data-aos="fade-up">
-          <span className="mb-4 inline-block text-xs font-medium uppercase tracking-[0.3em] text-gray-500">
+          <span className="mb-4 inline-block text-xs font-medium uppercase tracking-[0.3em] text-[#06ac5e]">
             {t("subtitle")}
           </span>
           <h2 className="text-stylish text-black">{t("title")}</h2>
@@ -51,12 +51,12 @@ export default function Statistics() {
               </div>
 
               {/* Label */}
-              <h3 className="mb-2 text-sm font-light uppercase tracking-wider text-black">
+              <h3 className="mb-2 text-sm font-light uppercase tracking-wider  text-black">
                 {t(`stats.${stat.key}.label`)}
               </h3>
 
               {/* Description */}
-              <p className="text-xs text-gray-500">
+              <p className="text-xs text-black">
                 {t(`stats.${stat.key}.description`)}
               </p>
 

@@ -144,10 +144,14 @@
   },
   "Brands": {
     "subtitle": "Trusted Partners",
-    "title": "Our Suppliers",
-    "partnering": "Partnering with",
+    "title": "Our Best Customers",
+    "partnering": "Trusted by",
     "brandsCount": "100+",
-    "brandsLabel": "reliable suppliers"
+    "brandsLabel": "satisfied clients"
+  },
+  "Suppliers": {
+    "subtitle": "Our Suppliers",
+    "title": "Brands We Work With"
   },
   "Testimonials": {
     "subtitle": "Client Testimonials",

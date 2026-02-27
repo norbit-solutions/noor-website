@@ -144,10 +144,14 @@
   },
   "Brands": {
     "subtitle": "Partenaires de Confiance",
-    "title": "Nos Fournisseurs",
-    "partnering": "Partenaire avec",
+    "title": "Nos Meilleurs Clients",
+    "partnering": "Fait confiance par",
     "brandsCount": "100+",
-    "brandsLabel": "fournisseurs fiables"
+    "brandsLabel": "clients satisfaits"
+  },
+  "Suppliers": {
+    "subtitle": "Nos Fournisseurs",
+    "title": "Les Marques Avec Lesquelles Nous Travaillons"
   },
   "Testimonials": {
     "subtitle": "Témoignages Clients",

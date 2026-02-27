@@ -30,7 +30,7 @@ export default async function RootLayout({
   return (
     <html lang={locale}>
       <body
-        className={`${figtree.variable} ${figtree.className} leading-tight! tracking-tight! antialiased w-full overflow-x-hidden! bg-white! scroll-smooth!`}
+        className={`${figtree.variable} ${figtree.className} tracking-wide! antialiased w-full overflow-x-hidden! bg-white! scroll-smooth!`}
       >
         <NextIntlClientProvider messages={messages}>
           <SmoothScroll>

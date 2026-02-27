@@ -173,7 +173,7 @@ export default function Header() {
             className={`relative transition-all duration-1000!  ${isHomePage && !isScrolled ? "w-32 md:w-64 mt-14" : "w-18 -mt-3 md:-mt-4 md:w-32"}`}
           >
             <Image
-              src="/images/white-logo.png"
+              src="/images/logo/white-logo.png"
               alt="Logo"
               width={176}
               height={176}
@@ -182,7 +182,7 @@ export default function Header() {
               className={`w-full h-auto object-contain transition-opacity duration-700  ${isScrolled ? "opacity-0" : "opacity-100 "}`}
             />
             <Image
-              src="/images/black-logo.png"
+              src="/images/logo/black-logo.png"
               alt="Logo"
               width={176}
               height={176}
@@ -285,7 +285,7 @@ export default function Header() {
                   {item.isCategories ? (
                     <button
                       onClick={() => setShowCategories(true)}
-                      className="flex w-full items-center justify-between text-lg font-normal leading-tight tracking-tight hover:text-gray-500 transition-colors"
+                      className="flex w-full items-center justify-between text-lg font-normal leading-tight tracking-tight hover:text-[#06ac5e] transition-colors"
                     >
                       {item.label}
                       <svg
@@ -306,7 +306,7 @@ export default function Header() {
                     <Link
                       href={item.href}
                       onClick={handleCloseMenu}
-                      className="block text-lg font-normal leading-tight tracking-tight hover:text-gray-500 transition-colors"
+                      className="block text-lg font-normal leading-tight tracking-tight hover:text-[#06ac5e] transition-colors"
                     >
                       {item.label}
                     </Link>
@@ -328,7 +328,7 @@ export default function Header() {
             <div className="px-8 pt-4 pb-6">
               <button
                 onClick={() => setShowCategories(false)}
-                className="group flex items-center gap-3 text-sm font-medium uppercase tracking-widest text-gray-500 hover:text-black transition-colors"
+                className="group flex items-center gap-3 text-sm font-medium uppercase tracking-widest text-[#06ac5e] hover:text-black transition-colors"
               >
                 <svg
                   className="h-4 w-4 transition-transform duration-300 group-hover:-translate-x-1"
@@ -374,7 +374,7 @@ export default function Header() {
                     <Link
                       href={category.href}
                       onClick={handleCloseMenu}
-                      className="group flex items-center gap-4 py-3 text-black hover:text-gray-500 transition-colors"
+                      className="group flex items-center gap-4 py-3 text-black hover:text-[#06ac5e] transition-colors"
                     >
                       <span className="flex h-10 w-10 items-center justify-center border border-gray-200 text-gray-400 transition-all duration-300 group-hover:border-black group-hover:text-black">
                         {category.icon}

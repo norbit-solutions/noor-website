@@ -80,10 +80,10 @@ export default function Testimonials() {
   const translateX = `translateX(-${(current * 100) / COUNT}%)`;
 
   return (
-    <section className="bg-white px-6 py-24 sm:px-12 md:px-16 lg:px-20">
+    <section className="bg-gray-50 px-6 py-24 sm:px-12 md:px-16 lg:px-20">
       {/* Section Header */}
       <div className="mb-16 text-center" data-aos="fade-down">
-        <span className="mb-4 inline-block text-xs font-medium uppercase tracking-[0.3em] text-gray-500">
+        <span className="mb-4 inline-block text-xs font-medium uppercase tracking-[0.3em] text-[#06ac5e]">
           {t("subtitle")}
         </span>
         <h2 className="text-stylish text-black">{t("title")}</h2>
@@ -152,7 +152,7 @@ export default function Testimonials() {
                       <h4 className="text-sm font-semibold text-black">
                         {t(`testimonials.${testimonial.key}.name`)}
                       </h4>
-                      <p className="text-xs text-gray-500">
+                      <p className="text-xs text-[#06ac5e]">
                         {t(`testimonials.${testimonial.key}.role`)}
                       </p>
                     </div>
@@ -178,7 +178,7 @@ export default function Testimonials() {
               <span className="absolute left-0 top-0 h-2 w-2 border-l-2 border-t-2 border-black opacity-0 transition-opacity duration-300 group-hover:border-white group-hover:opacity-100" />
               <span className="absolute bottom-0 right-0 h-2 w-2 border-b-2 border-r-2 border-black opacity-0 transition-opacity duration-300 group-hover:border-white group-hover:opacity-100" />
               <svg
-                className="h-5 w-5 text-gray-500 transition-colors duration-300 group-hover:text-white"
+                className="h-5 w-5 text-[#06ac5e] transition-colors duration-300 group-hover:text-white"
                 fill="none"
                 stroke="currentColor"
                 strokeWidth={1.75}
@@ -216,7 +216,7 @@ export default function Testimonials() {
               <span className="absolute right-0 top-0 h-2 w-2 border-r-2 border-t-2 border-black opacity-0 transition-opacity duration-300 group-hover:border-white group-hover:opacity-100" />
               <span className="absolute bottom-0 left-0 h-2 w-2 border-b-2 border-l-2 border-black opacity-0 transition-opacity duration-300 group-hover:border-white group-hover:opacity-100" />
               <svg
-                className="h-5 w-5 text-gray-500 transition-colors duration-300 group-hover:text-white"
+                className="h-5 w-5 text-[#06ac5e] transition-colors duration-300 group-hover:text-white"
                 fill="none"
                 stroke="currentColor"
                 strokeWidth={1.75}

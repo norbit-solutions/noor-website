@@ -55,7 +55,7 @@ export default function ProductCard({
         <h3 className="text-sm font-medium text-black group-hover:text-gray-600 transition-colors">
           {product.name}
         </h3>
-        <span className="text-sm text-gray-500 mt-1 block">
+        <span className="text-sm text-[#06ac5e] mt-1 block">
           {product.categoryName}
         </span>
       </div>

@@ -143,10 +143,10 @@ export default function ContactInfo() {
               </h3>
 
               {/* Lines */}
-              <p className="text-sm leading-relaxed text-gray-500">
+              <p className="text-sm leading-relaxed text-[#06ac5e]">
                 {t(`${item.key}.line1`)}
               </p>
-              <p className="text-sm leading-relaxed text-gray-500">
+              <p className="text-sm leading-relaxed text-[#06ac5e]">
                 {t(`${item.key}.line2`)}
               </p>
 

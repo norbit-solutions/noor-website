@@ -16,7 +16,7 @@ export default function ContactMap() {
           <h2 className="text-4xl font-light text-black mb-4 md:text-5xl">
             {t("title")}
           </h2>
-          <p className="mx-auto max-w-2xl text-lg text-gray-500 leading-relaxed">
+          <p className="mx-auto max-w-2xl text-lg text-[#06ac5e] leading-relaxed">
             {t("description")}
           </p>
         </div>

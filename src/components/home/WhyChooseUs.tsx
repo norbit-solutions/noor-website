@@ -133,10 +133,10 @@ export default function WhyChooseUs() {
                 <span className="text-xl lg:text-2xl font-bold">15+</span>
               </div>
               <div>
-                <p className="text-xs lg:text-sm text-gray-500 font-medium uppercase tracking-wider">
+                <p className="text-xs lg:text-sm text-[#06ac5e] font-medium uppercase tracking-wider">
                   {t("stats.years")}
                 </p>
-                <p className="text-base lg:text-lg font-bold text-black">
+                <p className="text-base lg:text-lg font-bold text-black tracking-wide">
                   Experience
                 </p>
               </div>
@@ -149,11 +149,13 @@ export default function WhyChooseUs() {
               <span className="inline-block py-1 px-3 rounded-full bg-gray-100 text-sm font-medium text-gray-900 mb-6">
                 {t("subtitle")}
               </span>
-              <h2 className="text-4xl md:text-5xl font-light text-black mb-6 leading-tight">
+              <h2 className="text-4xl md:text-5xl font-light tracking-wide text-black mb-6 leading-tight">
                 {t("title")}{" "}
-                <span className="font-semibold">{t("titleHighlight")}</span>
+                <span className="font-semibold tracking-wide">
+                  {t("titleHighlight")}
+                </span>
               </h2>
-              <p className="text-gray-600 text-lg mb-12 leading-relaxed">
+              <p className="text-gray-600 text-lg mb-12 leading-relaxed tracking-wide">
                 {t("description")}
               </p>
             </div>
@@ -171,10 +173,10 @@ export default function WhyChooseUs() {
                   <div className="w-14 h-14 rounded-2xl bg-gray-50 flex items-center justify-center text-black mb-6 group-hover:bg-white group-hover:text-[#06ac5e] transition-colors duration-300 shadow-sm">
                     {feature.icon}
                   </div>
-                  <h3 className="text-xl font-semibold text-black mb-3">
+                  <h3 className="text-xl font-semibold text-black mb-3 tracking-wide">
                     {t(`features.${feature.key}.title`)}
                   </h3>
-                  <p className="text-gray-500 leading-relaxed">
+                  <p className="text-black/60 leading-relaxed tracking-wide">
                     {t(`features.${feature.key}.description`)}
                   </p>
                 </div>

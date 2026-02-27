@@ -20,7 +20,9 @@ export default function AboutSection() {
           <div className="mt-10">
             <Link
               href="/about"
-              className="group inline-flex items-center gap-2 text-sm font-bold tracking-widest uppercase text-black hover:opacity-70 transition-opacity"
+              className="group text-center text-stylish text-sm! text-black relative  after:content-[''] after:absolute after:left-0 after:-bottom-1
+         after:h-[2px] after:w-0 after:bg-current
+         after:transition-all after:duration-300 hover:after:w-full cursor-pointer inline-flex items-center gap-2 text-sm! uppercase tracking-widest text-black transition-opacity hover:opacity-70"
             >
               {t("readMore")}
               <svg

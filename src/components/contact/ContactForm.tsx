@@ -62,7 +62,7 @@ export default function ContactForm() {
               {t("title")}
             </h2>
             <p
-              className="text-lg leading-relaxed text-gray-500 mb-12"
+              className="text-lg leading-relaxed text-[#06ac5e] mb-12"
               data-aos="fade-up"
               data-aos-delay="100"
             >
@@ -107,7 +107,7 @@ export default function ContactForm() {
             {/* Name & Email row */}
             <div className="grid gap-6 sm:grid-cols-2">
               <div className="form-field">
-                <label className="mb-2 block text-xs font-semibold uppercase tracking-wider text-gray-500">
+                <label className="mb-2 block text-xs font-semibold uppercase tracking-wider text-[#06ac5e]">
                   {t("name")}
                 </label>
                 <input
@@ -118,7 +118,7 @@ export default function ContactForm() {
                 />
               </div>
               <div className="form-field">
-                <label className="mb-2 block text-xs font-semibold uppercase tracking-wider text-gray-500">
+                <label className="mb-2 block text-xs font-semibold uppercase tracking-wider text-[#06ac5e]">
                   {t("email")}
                 </label>
                 <input
@@ -133,7 +133,7 @@ export default function ContactForm() {
             {/* Phone & Subject row */}
             <div className="grid gap-6 sm:grid-cols-2">
               <div className="form-field">
-                <label className="mb-2 block text-xs font-semibold uppercase tracking-wider text-gray-500">
+                <label className="mb-2 block text-xs font-semibold uppercase tracking-wider text-[#06ac5e]">
                   {t("phone")}
                 </label>
                 <input
@@ -143,7 +143,7 @@ export default function ContactForm() {
                 />
               </div>
               <div className="form-field">
-                <label className="mb-2 block text-xs font-semibold uppercase tracking-wider text-gray-500">
+                <label className="mb-2 block text-xs font-semibold uppercase tracking-wider text-[#06ac5e]">
                   {t("subject")}
                 </label>
                 <input
@@ -157,7 +157,7 @@ export default function ContactForm() {
 
             {/* Message */}
             <div className="form-field">
-              <label className="mb-2 block text-xs font-semibold uppercase tracking-wider text-gray-500">
+              <label className="mb-2 block text-xs font-semibold uppercase tracking-wider text-[#06ac5e]">
                 {t("message")}
               </label>
               <textarea

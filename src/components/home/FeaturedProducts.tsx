@@ -24,7 +24,7 @@ export default function FeaturedProducts() {
       />
       {/* Section Header */}
       <div className="text-center" data-aos="fade-up">
-        <span className="mb-4 inline-block text-xs font-medium uppercase tracking-[0.3em] text-gray-500">
+        <span className="mb-4 inline-block text-xs font-medium uppercase tracking-[0.3em] text-[#06ac5e]">
           {t("subtitle")}
         </span>
         <h2 className="text-stylish text-black">{t("title")}</h2>

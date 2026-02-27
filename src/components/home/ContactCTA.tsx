@@ -66,7 +66,7 @@ export default function ContactCTA() {
             <h3 className="mb-1 text-sm font-semibold uppercase tracking-wider text-white">
               {t("phone.title")}
             </h3>
-            <p className="text-sm text-gray-500">{t("phone.value")}</p>
+            <p className="text-sm text-[#06ac5e]">{t("phone.value")}</p>
           </div>
 
           {/* Email */}
@@ -89,7 +89,7 @@ export default function ContactCTA() {
             <h3 className="mb-1 text-sm font-semibold uppercase tracking-wider text-white">
               {t("email.title")}
             </h3>
-            <p className="text-sm text-gray-500">{t("email.value")}</p>
+            <p className="text-sm text-[#06ac5e]">{t("email.value")}</p>
           </div>
 
           {/* Location */}
@@ -117,7 +117,7 @@ export default function ContactCTA() {
             <h3 className="mb-1 text-sm font-semibold uppercase tracking-wider text-white">
               {t("location.title")}
             </h3>
-            <p className="text-sm text-gray-500">{t("location.value")}</p>
+            <p className="text-sm text-[#06ac5e]">{t("location.value")}</p>
           </div>
         </div>
 

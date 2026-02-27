@@ -60,7 +60,7 @@ export default function ProductInfo({ product }: ProductInfoProps) {
             <h1 className="text-2xl sm:text-3xl font-medium text-black mb-4">
               {name}
             </h1>
-            <div className="text-sm text-gray-500 mb-6">{category}</div>
+            <div className="text-sm text-[#06ac5e] mb-6">{category}</div>
 
             <div className="flex flex-col gap-2 text-sm mb-8">
               <div className="flex items-center gap-2">
@@ -97,7 +97,7 @@ export default function ProductInfo({ product }: ProductInfoProps) {
                       key={index}
                       className="flex justify-between items-center py-2 border-b border-gray-100"
                     >
-                      <span className="text-sm text-gray-500">
+                      <span className="text-sm text-[#06ac5e]">
                         {spec.label}
                       </span>
                       <span className="text-sm font-medium text-black">

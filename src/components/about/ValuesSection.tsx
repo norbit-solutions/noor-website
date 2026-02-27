@@ -135,7 +135,7 @@ export default function ValuesSection() {
               <h3 className="text-xl font-semibold text-black mb-4">
                 {t(`values.${value.key}.title`)}
               </h3>
-              <p className="text-gray-500 leading-relaxed">
+              <p className="text-[#06ac5e] leading-relaxed">
                 {t(`values.${value.key}.description`)}
               </p>
             </div>
