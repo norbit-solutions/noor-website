@@ -3,22 +3,17 @@
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 
-const BRANDS = [
-  { id: 1, name: "Samsung", logo: "/images/brands/samsung.png" },
-  { id: 2, name: "LG", logo: "/images/brands/samsung.png" },
-  { id: 3, name: "Sony", logo: "/images/brands/samsung.png" },
-  { id: 4, name: "Philips", logo: "/images/brands/samsung.png" },
-  { id: 5, name: "Bosch", logo: "/images/brands/samsung.png" },
-  { id: 6, name: "Honda", logo: "/images/brands/samsung.png" },
-  { id: 7, name: "Toyota", logo: "/images/brands/samsung.png" },
-  { id: 8, name: "Nestle", logo: "/images/brands/samsung.png" },
-];
+const BRANDS = Array.from({ length: 56 }, (_, i) => ({
+  id: i + 1,
+  name: `Brand ${i + 1}`,
+  logo: `/images/brand-logos/${i + 1}.png`,
+}));
 
 export default function BrandsCarousel() {
   const t = useTranslations("Brands");
 
   return (
-    <section className="overflow-hidden bg-gray-50 px-6 py-24 sm:px-12 md:px-16 lg:px-20">
+    <section className="overflow-hidden bg-white px-6 py-24 sm:px-12 md:px-16 lg:px-20">
       {/* Section Header */}
       <div className="mb-16 text-center" data-aos="fade-right">
         <span className="mb-4 inline-block text-xs font-medium uppercase tracking-[0.3em] text-[#06ac5e]">

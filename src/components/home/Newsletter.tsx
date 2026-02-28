@@ -15,7 +15,7 @@ export default function Newsletter() {
   };
 
   return (
-    <section className="relative overflow-hidden bg-white px-6 py-24 sm:px-12 md:px-16 lg:px-20">
+    <section className="relative overflow-hidden bg-gray-50 px-6 py-24 sm:px-12 md:px-16 lg:px-20">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-5">
         <div

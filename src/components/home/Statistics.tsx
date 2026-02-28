@@ -13,7 +13,7 @@ export default function Statistics() {
   const t = useTranslations("Statistics");
 
   return (
-    <section className="relative overflow-hidden bg-white px-6 py-24 sm:px-12 md:px-16 lg:px-20">
+    <section className="relative overflow-hidden bg-gray-50 px-6 py-24 sm:px-12 md:px-16 lg:px-20">
       {/* Background Accent */}
       <div
         className="absolute left-0 top-0 h-full w-1/3"

@@ -8,7 +8,7 @@ export default function AboutSection() {
   const t = useTranslations("About");
 
   return (
-    <section className=" overflow-hidden bg-gray-50 px-6 py-24 sm:px-12 md:px-16 lg:px-20">
+    <section className=" overflow-hidden bg-white px-6 py-24 sm:px-12 md:px-16 lg:px-20">
       <div className="flex flex-col gap-12 lg:flex-row lg:items-center lg:gap-20">
         {/* Text Content */}
         <div className="flex-1" data-aos="fade-right">

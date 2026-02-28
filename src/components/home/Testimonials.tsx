@@ -80,7 +80,7 @@ export default function Testimonials() {
   const translateX = `translateX(-${(current * 100) / COUNT}%)`;
 
   return (
-    <section className="bg-gray-50 px-6 py-24 sm:px-12 md:px-16 lg:px-20">
+    <section className="bg-white px-6 py-24 sm:px-12 md:px-16 lg:px-20">
       {/* Section Header */}
       <div className="mb-16 text-center" data-aos="fade-down">
         <span className="mb-4 inline-block text-xs font-medium uppercase tracking-[0.3em] text-[#06ac5e]">

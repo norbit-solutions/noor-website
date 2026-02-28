@@ -182,7 +182,7 @@ export default function Header() {
               className={`w-full h-auto object-contain transition-opacity duration-700  ${isScrolled ? "opacity-0" : "opacity-100 "}`}
             />
             <Image
-              src="/images/logo/black-logo.png"
+              src="/images/black-logo.png"
               alt="Logo"
               width={176}
               height={176}

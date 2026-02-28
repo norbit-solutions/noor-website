@@ -3,22 +3,17 @@
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 
-const SUPPLIERS = [
-  { id: 1, name: "HP", logo: "/images/suppliers/hp.png" },
-  { id: 2, name: "Dell", logo: "/images/suppliers/dell.png" },
-  { id: 3, name: "Lenovo", logo: "/images/suppliers/lenovo.png" },
-  { id: 4, name: "Epson", logo: "/images/suppliers/epson-logo.png" },
-  { id: 5, name: "Canon", logo: "/images/suppliers/canon-logo.png" },
-  { id: 7, name: "Microsoft", logo: "/images/suppliers/microsoft.png" },
-  { id: 8, name: "Logitech", logo: "/images/suppliers/logitech.svg" },
-  { id: 9, name: "Cisco", logo: "/images/suppliers/cisco.png" },
-];
+const SUPPLIERS = Array.from({ length: 36 }, (_, i) => ({
+  id: i + 1,
+  name: `Brand ${i + 1}`,
+  logo: `/images/brand-logos/${i + 1}.png`,
+}));
 
 export default function SuppliersGrid() {
   const t = useTranslations("Suppliers");
 
   return (
-    <section className="relative overflow-hidden bg-white px-6 py-24 sm:px-12 md:px-16 lg:px-20">
+    <section className="relative overflow-hidden bg-gray-50 px-6 py-24 sm:px-12 md:px-16 lg:px-20">
       {/* Decorative Background Elements */}
       <div className="pointer-events-none absolute inset-0">
         <div className="absolute left-1/2 top-0 -translate-x-1/2 h-[500px] w-full " />
@@ -45,9 +40,9 @@ export default function SuppliersGrid() {
           {SUPPLIERS.map((supplier, index) => (
             <div
               key={supplier.id}
-              className="group relative flex h-40 flex-col items-center justify-center bg-white p-8 transition-all duration-500 hover:bg-emerald-50/30 hover:z-10"
-              data-aos="fade-in"
-              data-aos-delay={100 + index * 50}
+              className="group relative flex h-40 flex-col items-center justify-center bg-white p-8 transition-all duration-500  hover:z-10"
+              // data-aos="fade-in"
+              // data-aos-delay={100 + index * 50}
             >
               <div className="relative flex h-full w-full items-center justify-center grayscale opacity-60 transition-all duration-500 group-hover:grayscale-0 group-hover:opacity-100 group-hover:scale-110">
                 <Image
