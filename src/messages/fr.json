@@ -9,11 +9,11 @@
     "menuItems": {
       "home": "Accueil",
       "about": "À Propos",
-      "categories": "Catégories",
+      "categories": "Services",
       "contact": "Contactez-Nous"
     },
     "categories": {
-      "title": "Nos Catégories",
+      "title": "Nos Services",
       "generalSupplies": "Fournitures Générales",
       "professionalEquipment": "Équipements Professionnels",
       "technicalMaterials": "Matériels Techniques",
@@ -29,8 +29,8 @@
     "scroll": "Défiler"
   },
   "FeaturedCategories": {
-    "title": "Nos Catégories",
-    "seeAll": "Voir Toutes les Catégories"
+    "title": "Nos Services",
+    "seeAll": "Voir Tous les Services"
   },
   "FeaturedProducts": {
     "subtitle": "Sélection de Produits",
@@ -146,7 +146,7 @@
     "subtitle": "Partenaires de Confiance",
     "title": "Nos Meilleurs Clients",
     "partnering": "Fait confiance par",
-    "brandsCount": "100+",
+    "brandsCount": "50+",
     "brandsLabel": "clients satisfaits"
   },
   "Suppliers": {
@@ -203,7 +203,8 @@
   "Footer": {
     "description": "Votre partenaire de confiance pour la fourniture et la distribution de produits et équipements divers. Au service de nos clients avec excellence depuis 2021.",
     "categories": {
-      "title": "Catégories",
+      "title": "Services",
+      "allServices": "Tous les Services",
       "generalSupplies": "Fournitures Générales",
       "professionalEquipment": "Équipements Professionnels",
       "technicalMaterials": "Matériels Techniques",
@@ -231,40 +232,11 @@
     },
     "copyright": "© {year} SOCIÉTÉ M NOUR. Tous droits réservés."
   },
-  "ProductsPage": {
-    "heroSubtitle": "Nos Produits",
-    "heroTitle": "Produits de Qualité,",
-    "heroTitleHighlight": "Solutions Fiables",
-    "heroDescription": "Parcourez notre vaste catalogue de produits dans plusieurs catégories. Des fournitures de bureau aux équipements techniques, nous avons tout ce dont votre entreprise a besoin.",
-    "searchPlaceholder": "Rechercher des produits...",
-    "allCategories": "Toutes les Catégories",
-    "sortBy": "Trier Par",
-    "sortDefault": "Par Défaut",
-    "sortNameAsc": "Nom A-Z",
-    "sortNameDesc": "Nom Z-A",
-    "sortPriceLow": "Prix: Croissant",
-    "sortPriceHigh": "Prix: Décroissant",
-    "noResults": "Aucun produit trouvé",
-    "noResultsDescription": "Essayez d'ajuster votre recherche ou votre filtre pour trouver ce que vous cherchez.",
-    "resetFilters": "Réinitialiser les Filtres",
-    "viewDetails": "Voir Détails",
-    "showing": "Affichage de",
-    "of": "sur",
-    "products": "produits",
-    "new": "Nouveau"
-  },
-  "ProductDetail": {
-    "backToProducts": "Retour aux Produits",    "backToCategory": "Retour à la catégorie",    "category": "Catégorie",
-    "description": "Description",
-    "specifications": "Spécifications",
+  "ServiceDetail": {
     "requestQuote": "Demander un Devis",
-    "contactUs": "Contactez-Nous pour les Prix",
-    "availability": "Disponibilité",
-    "inStock": "En Stock",
-    "sku": "Réf",
-    "recommended": "Produits Recommandés",
-    "recommendedSubtitle": "Vous pourriez aussi aimer",
-    "viewProduct": "Voir le Produit"
+    "contactUs": "Contactez-Nous",
+    "relatedTitle": "Services Connexes",
+    "relatedSubtitle": "Découvrez d'autres services que nous proposons"
   },
   "AboutPage": {
     "heroSubtitle": "À Propos",
@@ -382,6 +354,52 @@
     "ctaTitle": "Prêt à commencer ?",
     "ctaDescription": "Que vous ayez besoin de fournitures en gros, d'équipements spécialisés ou d'un partenaire de distribution fiable — nous ne sommes qu'à un message.",
     "ctaButton": "Appelez-Nous"
+  },
+  "ServicesPage": {
+    "heroSubtitle": "Nos Services",
+    "heroTitle": "Fourniture et Distribution",
+    "heroTitleHighlight": "Complètes",
+    "heroDescription": "Des fournitures de bureau aux travaux de construction, nous proposons des solutions complètes d'approvisionnement et de distribution adaptées aux entreprises, ONG et institutions en République Centrafricaine.",
+    "groupSupply": "Fourniture & Distribution",
+    "groupAgriculture": "Agriculture",
+    "groupTechnical": "Technique & Industriel",
+    "groupConstruction": "Construction & Travaux Publics",
+    "groupGeneralServices": "Services Généraux",
+    "contactBtn": "Nous Contacter",
+    "viewProducts": "Voir les Produits",
+    "viewDetails": "Voir Détails",
+    "sortBy": "Trier Par",
+    "sortDefault": "Par Défaut",
+    "sortNameAsc": "Nom A-Z",
+    "sortNameDesc": "Nom Z-A",
+    "searchPlaceholder": "Rechercher des services...",
+    "allServices": "Tous les Services",
+    "noResults": "Aucun service trouvé",
+    "noResultsDescription": "Essayez d'ajuster votre recherche ou votre filtre.",
+    "resetFilters": "Réinitialiser les Filtres",
+    "services": {
+      "officeSupplies": { "title": "Fournitures de Bureau", "description": "Papeterie, papier, stylos, classeurs et tous les consommables de bureau quotidiens." },
+      "officeFurniture": { "title": "Mobilier de Bureau", "description": "Bureaux, chaises, étagères et équipements complets d'intérieur de bureau." },
+      "itConsumables": { "title": "Consommables Informatiques", "description": "Cartouches d'encre, toners, câbles, périphériques et accessoires informatiques." },
+      "labConsumables": { "title": "Consommables de Laboratoire", "description": "Réactifs, verrerie et fournitures de laboratoire pour la recherche et la santé." },
+      "generalHardware": { "title": "Quincaillerie Générale", "description": "Outils, fixations et matériaux de quincaillerie pour la maintenance et les travaux." },
+      "cleaningProducts": { "title": "Produits de Nettoyage & Hygiène", "description": "Détergents, désinfectants et produits d'hygiène pour bureaux et institutions." },
+      "foodProducts": { "title": "Produits Alimentaires", "description": "Denrées alimentaires de base pour les institutions et opérations humanitaires." },
+      "nfiKits": { "title": "Kits NFI (Articles Non-Alimentaires)", "description": "Kits d'articles non alimentaires pour l'aide humanitaire, l'urgence et les projets de développement." },
+      "marketGardening": { "title": "Produits Maraîchers", "description": "Intrants et fournitures pour la culture maraîchère et les jardins potagers." },
+      "cropSeeds": { "title": "Semences Maraîchères et Vivrières", "description": "Semences certifiées adaptées aux conditions de culture centrafricaines à haut rendement." },
+      "agriculturalTools": { "title": "Outillage Agricole", "description": "Outils manuels et équipements pour les activités agricoles et la culture." },
+      "automotiveParts": { "title": "Pièces de Rechange Automobiles", "description": "Pièces et composants pour véhicules légers, 4x4 et véhicules de transport." },
+      "truckTires": { "title": "Pneus pour Camions", "description": "Pneus lourds pour camions et véhicules de transport de toutes capacités." },
+      "drillingMaterials": { "title": "Matériels et Équipements de Forage", "description": "Tuyaux, pompes et équipements spécialisés pour les projets de forage d'eau." },
+      "buildingConstruction": { "title": "Construction de Bâtiments", "description": "Construction de bâtiments résidentiels, commerciaux et institutionnels selon les spécifications." },
+      "publicWorks": { "title": "Travaux Publics (BTP)", "description": "Voirie, drainage, infrastructures et projets de génie civil." },
+      "vehicleRental": { "title": "Services de Location de Véhicules", "description": "Location courte et longue durée de voitures et véhicules utilitaires légers." },
+      "vehicleSales": { "title": "Vente de Véhicules Neufs", "description": "Fourniture et vente de véhicules neufs de tourisme et utilitaires." },
+      "importGoods": { "title": "Importation de Marchandises", "description": "Importation de marchandises et équipements auprès de fournisseurs internationaux." },
+      "exportActivities": { "title": "Activités d'Exportation", "description": "Facilitation des exportations de produits, marchandises et matières premières locaux." },
+      "fairOrganization": { "title": "Organisation de Foires & Services Généraux", "description": "Organisation de foires commerciales, événements professionnels et services logistiques généraux." }
+    }
   },
   "LocaleSwitcher": {
     "fr": "Français",

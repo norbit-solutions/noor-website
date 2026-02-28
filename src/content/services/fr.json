@@ -1,0 +1,296 @@
+[
+  {
+    "id": "1",
+    "slug": "office-supplies",
+    "name": "Fournitures de Bureau",
+    "group": "supply",
+    "description": "Papeterie, papier, stylos, classeurs et tous les consommables de bureau quotidiens. Nous fournissons tout ce dont votre bureau a besoin pour un fonctionnement fluide, provenant de marques de confiance avec une qualité garantie.",
+    "image": "/images/categories/stationery.avif",
+    "highlights": [
+      { "label": "Articles", "value": "200+" },
+      { "label": "Marques", "value": "Top Qualité" },
+      { "label": "Livraison", "value": "Rapide" },
+      { "label": "Prix", "value": "Compétitifs" }
+    ]
+  },
+  {
+    "id": "2",
+    "slug": "office-furniture",
+    "name": "Mobilier de Bureau",
+    "group": "supply",
+    "description": "Bureaux, chaises, étagères et solutions complètes d'aménagement intérieur de bureau. Mobilier ergonomique et durable adapté aux environnements professionnels.",
+    "image": "/images/categories/stationery.avif",
+    "highlights": [
+      { "label": "Gamme", "value": "Bureau Complet" },
+      { "label": "Qualité", "value": "Premium" },
+      { "label": "Installation", "value": "Incluse" },
+      { "label": "Sur mesure", "value": "Disponible" }
+    ]
+  },
+  {
+    "id": "3",
+    "slug": "it-consumables",
+    "name": "Consommables Informatiques",
+    "group": "supply",
+    "description": "Cartouches d'encre, toners, câbles, périphériques et accessoires informatiques. Maintenez vos équipements en marche avec des consommables de haute qualité compatibles avec toutes les grandes marques.",
+    "image": "/images/categories/stationery.avif",
+    "highlights": [
+      { "label": "Compatibilité", "value": "Toutes Marques" },
+      { "label": "Stock", "value": "Toujours Prêt" },
+      { "label": "Qualité", "value": "Certifiée" },
+      { "label": "Support", "value": "Technique" }
+    ]
+  },
+  {
+    "id": "4",
+    "slug": "laboratory-consumables",
+    "name": "Consommables de Laboratoire",
+    "group": "supply",
+    "description": "Réactifs, verrerie, équipements de protection et fournitures de laboratoire pour les établissements de recherche, hôpitaux et institutions de santé. Produits certifiés conformes aux normes internationales.",
+    "image": "/images/categories/stationery.avif",
+    "highlights": [
+      { "label": "Normes", "value": "Internationales" },
+      { "label": "Gamme", "value": "Complète" },
+      { "label": "Certifié", "value": "Oui" },
+      { "label": "Secteurs", "value": "Santé & Recherche" }
+    ]
+  },
+  {
+    "id": "5",
+    "slug": "general-hardware",
+    "name": "Quincaillerie Générale",
+    "group": "supply",
+    "description": "Outils, fixations, raccords et matériaux de quincaillerie pour la maintenance, les réparations et les travaux de construction. Produits fiables pour tous types de projets techniques.",
+    "image": "/images/categories/stationery.avif",
+    "highlights": [
+      { "label": "Produits", "value": "100+" },
+      { "label": "Durabilité", "value": "Industrielle" },
+      { "label": "Livraison", "value": "Nationale" },
+      { "label": "Prix", "value": "Tarifs en gros" }
+    ]
+  },
+  {
+    "id": "6",
+    "slug": "cleaning-hygiene-products",
+    "name": "Produits de Nettoyage & Hygiène",
+    "group": "supply",
+    "description": "Détergents, désinfectants, savons et produits d'hygiène pour bureaux, institutions et opérations à grande échelle. Produits de qualité professionnelle garantissant des environnements propres et sûrs.",
+    "image": "/images/categories/stationery.avif",
+    "highlights": [
+      { "label": "Qualité", "value": "Professionnelle" },
+      { "label": "Volume", "value": "Gros Disponible" },
+      { "label": "Sécurité", "value": "Certifiée" },
+      { "label": "Gamme", "value": "Complète" }
+    ]
+  },
+  {
+    "id": "7",
+    "slug": "food-products",
+    "name": "Produits Alimentaires",
+    "group": "supply",
+    "description": "Denrées alimentaires de base pour institutions, cafétérias et opérations humanitaires. Produits alimentaires de qualité sourcés et livrés dans le respect des normes sanitaires.",
+    "image": "/images/categories/stationery.avif",
+    "highlights": [
+      { "label": "Qualité", "value": "Contrôlée" },
+      { "label": "Approvisionnement", "value": "Fiable" },
+      { "label": "Échelle", "value": "Institutionnelle" },
+      { "label": "Normes", "value": "Sanitaires" }
+    ]
+  },
+  {
+    "id": "8",
+    "slug": "nfi-kits",
+    "name": "Kits NFI (Articles Non-Alimentaires)",
+    "group": "supply",
+    "description": "Kits d'articles non alimentaires pour l'aide humanitaire, l'urgence et les projets de développement. Kits complets assemblés et livrés selon les normes humanitaires internationales.",
+    "image": "/images/categories/stationery.avif",
+    "highlights": [
+      { "label": "Normes", "value": "Humanitaires" },
+      { "label": "Assemblage", "value": "Kits Sur Mesure" },
+      { "label": "Livraison", "value": "Rapide" },
+      { "label": "Expérience", "value": "Partenaire ONG" }
+    ]
+  },
+  {
+    "id": "9",
+    "slug": "market-gardening-products",
+    "name": "Produits Maraîchers",
+    "group": "agriculture",
+    "description": "Intrants et fournitures pour la culture maraîchère et les jardins potagers — engrais, produits phytosanitaires et accessoires de culture adaptés aux conditions centrafricaines.",
+    "image": "/images/categories/stationery.avif",
+    "highlights": [
+      { "label": "Adapté", "value": "Climat Local" },
+      { "label": "Produits", "value": "Gamme Complète" },
+      { "label": "Qualité", "value": "Certifiée" },
+      { "label": "Support", "value": "Conseil" }
+    ]
+  },
+  {
+    "id": "10",
+    "slug": "vegetable-food-crop-seeds",
+    "name": "Semences Maraîchères et Vivrières",
+    "group": "agriculture",
+    "description": "Semences certifiées avec d'excellents taux de germination, spécialement sélectionnées pour les conditions de culture centrafricaines. Variétés à haut rendement.",
+    "image": "/images/categories/stationery.avif",
+    "highlights": [
+      { "label": "Germination", "value": "95%+" },
+      { "label": "Certification", "value": "Grade A" },
+      { "label": "Variétés", "value": "Multiples" },
+      { "label": "Adapté", "value": "Local" }
+    ]
+  },
+  {
+    "id": "11",
+    "slug": "agricultural-tools",
+    "name": "Outillage Agricole",
+    "group": "agriculture",
+    "description": "Outils manuels, brouettes, pulvérisateurs et équipements pour les activités agricoles et la culture. Outils durables et pratiques conçus pour une utilisation intensive.",
+    "image": "/images/categories/stationery.avif",
+    "highlights": [
+      { "label": "Durabilité", "value": "Robuste" },
+      { "label": "Gamme", "value": "Complète" },
+      { "label": "Qualité", "value": "Professionnelle" },
+      { "label": "Prix", "value": "Compétitifs" }
+    ]
+  },
+  {
+    "id": "12",
+    "slug": "automotive-spare-parts",
+    "name": "Pièces de Rechange Automobiles",
+    "group": "technical",
+    "description": "Pièces et composants pour véhicules légers, flotte 4x4 et véhicules de transport. Pièces originales et compatibles avec garantie de qualité pour toutes marques.",
+    "image": "/images/categories/stationery.avif",
+    "highlights": [
+      { "label": "Marques", "value": "Toutes" },
+      { "label": "Pièces", "value": "OEM & Compatible" },
+      { "label": "Garantie", "value": "Assurée" },
+      { "label": "Stock", "value": "Disponible" }
+    ]
+  },
+  {
+    "id": "13",
+    "slug": "truck-tires",
+    "name": "Pneus pour Camions",
+    "group": "technical",
+    "description": "Pneus lourds pour camions et véhicules de transport de toutes capacités. Pneus fiables pour le transport longue distance et les conditions routières exigeantes.",
+    "image": "/images/categories/stationery.avif",
+    "highlights": [
+      { "label": "Charge", "value": "Lourde" },
+      { "label": "Marques", "value": "Premium" },
+      { "label": "Tailles", "value": "Tous Types" },
+      { "label": "Durabilité", "value": "Prouvée" }
+    ]
+  },
+  {
+    "id": "14",
+    "slug": "drilling-materials-equipment",
+    "name": "Matériels et Équipements de Forage",
+    "group": "technical",
+    "description": "Tuyaux, pompes, tubages et équipements spécialisés pour les projets de forage d'eau et de puits. Solutions techniques complètes pour l'infrastructure d'accès à l'eau.",
+    "image": "/images/categories/stationery.avif",
+    "highlights": [
+      { "label": "Portée", "value": "Projet Complet" },
+      { "label": "Équipement", "value": "Spécialisé" },
+      { "label": "Normes", "value": "Internationales" },
+      { "label": "Support", "value": "Technique" }
+    ]
+  },
+  {
+    "id": "15",
+    "slug": "building-construction",
+    "name": "Construction de Bâtiments",
+    "group": "construction",
+    "description": "Construction de bâtiments résidentiels, commerciaux et institutionnels selon les spécifications. Gestion de projet de bout en bout, de l'assistance à la conception jusqu'à la livraison.",
+    "image": "/images/categories/stationery.avif",
+    "highlights": [
+      { "label": "Types", "value": "Tous Bâtiments" },
+      { "label": "Gestion", "value": "De bout en bout" },
+      { "label": "Normes", "value": "Professionnelles" },
+      { "label": "Livraison", "value": "Dans les Délais" }
+    ]
+  },
+  {
+    "id": "16",
+    "slug": "public-works-btp",
+    "name": "Travaux Publics (BTP)",
+    "group": "construction",
+    "description": "Voirie, drainage, infrastructures et projets de génie civil. Services complets de Bâtiment et Travaux Publics répondant aux exigences gouvernementales et institutionnelles.",
+    "image": "/images/categories/stationery.avif",
+    "highlights": [
+      { "label": "Portée", "value": "Infrastructure" },
+      { "label": "Conformité", "value": "Gouvernementale" },
+      { "label": "Capacité", "value": "Grande Échelle" },
+      { "label": "Expérience", "value": "Prouvée" }
+    ]
+  },
+  {
+    "id": "17",
+    "slug": "vehicle-rental-services",
+    "name": "Services de Location de Véhicules",
+    "group": "services",
+    "description": "Location courte et longue durée de voitures de tourisme, véhicules 4x4 et utilitaires légers. Solutions de location flexibles pour entreprises, ONG et équipes de projet.",
+    "image": "/images/categories/stationery.avif",
+    "highlights": [
+      { "label": "Durée", "value": "Flexible" },
+      { "label": "Flotte", "value": "Diversifiée" },
+      { "label": "Entretien", "value": "Inclus" },
+      { "label": "Couverture", "value": "Nationale" }
+    ]
+  },
+  {
+    "id": "18",
+    "slug": "sale-of-brand-new-vehicles",
+    "name": "Vente de Véhicules Neufs",
+    "group": "services",
+    "description": "Fourniture et vente de véhicules neufs de tourisme et utilitaires. Sourcing officiel auprès des constructeurs avec documentation complète et garantie.",
+    "image": "/images/categories/stationery.avif",
+    "highlights": [
+      { "label": "État", "value": "Neuf" },
+      { "label": "Garantie", "value": "Constructeur" },
+      { "label": "Types", "value": "Tourisme & Utilitaire" },
+      { "label": "Documentation", "value": "Complète" }
+    ]
+  },
+  {
+    "id": "19",
+    "slug": "import-of-goods",
+    "name": "Importation de Marchandises",
+    "group": "services",
+    "description": "Importation de marchandises et équipements auprès de fournisseurs internationaux du monde entier. Gestion complète des douanes, coordination logistique et livraison.",
+    "image": "/images/categories/stationery.avif",
+    "highlights": [
+      { "label": "Sources", "value": "Mondiales" },
+      { "label": "Douanes", "value": "Gérées" },
+      { "label": "Logistique", "value": "De bout en bout" },
+      { "label": "Conformité", "value": "Totale" }
+    ]
+  },
+  {
+    "id": "20",
+    "slug": "export-activities",
+    "name": "Activités d'Exportation",
+    "group": "services",
+    "description": "Facilitation des exportations de produits, marchandises et matières premières locaux. Documentation, conformité et logistique gérées pour des opérations commerciales internationales fluides.",
+    "image": "/images/categories/stationery.avif",
+    "highlights": [
+      { "label": "Marchés", "value": "Internationaux" },
+      { "label": "Documentation", "value": "Complète" },
+      { "label": "Conformité", "value": "Gérée" },
+      { "label": "Support", "value": "Dédié" }
+    ]
+  },
+  {
+    "id": "21",
+    "slug": "fair-organization-general-services",
+    "name": "Organisation de Foires & Services Généraux",
+    "group": "services",
+    "description": "Organisation de foires commerciales, événements professionnels et services logistiques généraux. Gestion complète d'événements de la planification à l'exécution.",
+    "image": "/images/categories/stationery.avif",
+    "highlights": [
+      { "label": "Événements", "value": "Foires Commerciales" },
+      { "label": "Gestion", "value": "De bout en bout" },
+      { "label": "Logistique", "value": "Complète" },
+      { "label": "Expérience", "value": "Professionnelle" }
+    ]
+  }
+]

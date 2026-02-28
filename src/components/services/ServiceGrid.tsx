@@ -2,51 +2,37 @@
 
 import { useState, useMemo } from "react";
 import { useTranslations, useLocale } from "next-intl";
-import {
-  getProducts,
-  getCategories,
-  getProductsByCategory,
-  getCategoryBySlug,
-} from "@/data/products";
-import ProductCard from "./ProductCard";
+import { getServices, SERVICE_GROUPS } from "@/data/services";
+import ServiceCard from "./ServiceCard";
 
-interface ProductGridProps {
-  categorySlug?: string;
-}
-
-export default function ProductGrid({ categorySlug }: ProductGridProps) {
-  const t = useTranslations("ProductsPage");
+export default function ServiceGrid() {
+  const t = useTranslations("ServicesPage");
   const locale = useLocale();
 
-  const allCategories = getCategories(locale);
-  const category = categorySlug
-    ? getCategoryBySlug(categorySlug, locale)
-    : undefined;
-  const baseProducts = category
-    ? getProductsByCategory(category.key, locale)
-    : getProducts(locale);
+  const allServices = getServices(locale);
+  const groups = Object.entries(SERVICE_GROUPS);
 
   const [search, setSearch] = useState("");
-  const [activeCategory, setActiveCategory] = useState("all");
+  const [activeGroup, setActiveGroup] = useState("all");
   const [sortBy, setSortBy] = useState("default");
   const [showFilters, setShowFilters] = useState(false);
 
-  const filteredProducts = useMemo(() => {
-    let results = [...baseProducts];
+  const filteredServices = useMemo(() => {
+    let results = [...allServices];
 
-    // Filter by category (only on general listing)
-    if (!categorySlug && activeCategory !== "all") {
-      results = results.filter((p) => p.categoryKey === activeCategory);
+    // Filter by group
+    if (activeGroup !== "all") {
+      results = results.filter((s) => s.group === activeGroup);
     }
 
     // Filter by search
     if (search.trim()) {
       const query = search.toLowerCase();
-      results = results.filter((p) => {
-        const name = p.name.toLowerCase();
-        const cat = p.categoryName.toLowerCase();
-        return name.includes(query) || cat.includes(query);
-      });
+      results = results.filter(
+        (s) =>
+          s.name.toLowerCase().includes(query) ||
+          s.description.toLowerCase().includes(query),
+      );
     }
 
     // Sort
@@ -57,12 +43,12 @@ export default function ProductGrid({ categorySlug }: ProductGridProps) {
     }
 
     return results;
-  }, [search, activeCategory, sortBy, baseProducts, categorySlug]);
+  }, [search, activeGroup, sortBy, allServices]);
 
   return (
     <section className="py-12 lg:py-16 bg-white">
       <div className="w-full px-4 sm:px-6 lg:px-8">
-        {/* Top Bar (Sort & Filters) */}
+        {/* Top Bar */}
         <div
           className="flex justify-between items-center mb-8"
           data-aos="fade-up"
@@ -125,7 +111,7 @@ export default function ProductGrid({ categorySlug }: ProductGridProps) {
           </button>
         </div>
 
-        {/* Expandable Filters Area */}
+        {/* Expandable Filters */}
         <div
           className={`transition-all duration-500 ease-in-out overflow-hidden ${
             showFilters
@@ -134,7 +120,7 @@ export default function ProductGrid({ categorySlug }: ProductGridProps) {
           }`}
         >
           <div className="space-y-6">
-            {/* Search Bar */}
+            {/* Search */}
             <div className="relative max-w-2xl">
               <svg
                 className="absolute left-0 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400"
@@ -158,51 +144,47 @@ export default function ProductGrid({ categorySlug }: ProductGridProps) {
               />
             </div>
 
-            {/* Category Pills */}
-            {!categorySlug && (
-              <div className="flex flex-wrap gap-2">
+            {/* Group Pills */}
+            <div className="flex flex-wrap gap-2">
+              <button
+                onClick={() => setActiveGroup("all")}
+                className={`px-5 py-2.5 rounded-none text-sm font-medium transition-all duration-300 ${
+                  activeGroup === "all"
+                    ? "bg-black text-white"
+                    : "bg-gray-100 text-gray-600 hover:bg-gray-200"
+                }`}
+              >
+                {t("allServices")}
+              </button>
+              {groups.map(([groupKey, translationKey]) => (
                 <button
-                  onClick={() => setActiveCategory("all")}
+                  key={groupKey}
+                  onClick={() => setActiveGroup(groupKey)}
                   className={`px-5 py-2.5 rounded-none text-sm font-medium transition-all duration-300 ${
-                    activeCategory === "all"
+                    activeGroup === groupKey
                       ? "bg-black text-white"
                       : "bg-gray-100 text-gray-600 hover:bg-gray-200"
                   }`}
                 >
-                  {t("allCategories")}
+                  {t(translationKey as Parameters<typeof t>[0])}
                 </button>
-                {allCategories.map((cat) => (
-                  <button
-                    key={cat.key}
-                    onClick={() => setActiveCategory(cat.key)}
-                    className={`px-5 py-2.5 rounded-none text-sm font-medium transition-all duration-300 ${
-                      activeCategory === cat.key
-                        ? "bg-black text-white"
-                        : "bg-gray-100 text-gray-600 hover:bg-gray-200"
-                    }`}
-                  >
-                    {cat.name}
-                  </button>
-                ))}
-              </div>
-            )}
+              ))}
+            </div>
           </div>
         </div>
 
-        {/* Products Grid */}
-        {filteredProducts.length > 0 ? (
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-1 gap-y-12">
-            {filteredProducts.map((product, index) => (
-              <ProductCard
-                key={product.id}
-                product={product}
-                index={index}
-                categorySlug={categorySlug}
-              />
+        {/* Services Grid */}
+        {filteredServices.length > 0 ? (
+          <div
+            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-1 gap-y-12"
+            data-aos="fade-up"
+            data-aos-duration="800"
+          >
+            {filteredServices.map((service, index) => (
+              <ServiceCard key={service.id} service={service} index={index} />
             ))}
           </div>
         ) : (
-          /* No Results */
           <div
             className="text-center py-24"
             data-aos="fade-up"
@@ -228,7 +210,7 @@ export default function ProductGrid({ categorySlug }: ProductGridProps) {
             <button
               onClick={() => {
                 setSearch("");
-                setActiveCategory("all");
+                setActiveGroup("all");
                 setSortBy("default");
               }}
               className="px-6 py-3 bg-black text-white rounded-full text-sm font-semibold hover:bg-gray-800 transition-colors"

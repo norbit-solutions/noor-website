@@ -7,6 +7,10 @@ import { useTranslations } from "next-intl";
 const FOOTER_LINKS = {
   categories: [
     {
+      key: "allServices" as const,
+      href: "/services",
+    },
+    {
       key: "generalSupplies" as const,
       href: "/categories/general-supplies",
     },

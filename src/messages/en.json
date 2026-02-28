@@ -9,11 +9,11 @@
     "menuItems": {
       "home": "Home",
       "about": "About",
-      "categories": "Categories",
+      "categories": "Services",
       "contact": "Contact Us"
     },
     "categories": {
-      "title": "Our Categories",
+      "title": "Our Services",
       "generalSupplies": "General Supplies",
       "professionalEquipment": "Professional Equipment",
       "technicalMaterials": "Technical Materials",
@@ -29,8 +29,8 @@
     "scroll": "Scroll"
   },
   "FeaturedCategories": {
-    "title": "Our Categories",
-    "seeAll": "See All Categories"
+    "title": "Our Services",
+    "seeAll": "See All Services"
   },
   "FeaturedProducts": {
     "subtitle": "Product Selection",
@@ -126,7 +126,7 @@
         "description": "Serving our clients since 2021"
       },
       "projects": {
-        "value": "100+",
+        "value": "50+",
         "label": "Projects Completed",
         "description": "For businesses, NGOs and institutions"
       },
@@ -203,7 +203,8 @@
   "Footer": {
     "description": "Your trusted partner for the supply and distribution of various products and equipment. Serving our clients with excellence since 2021.",
     "categories": {
-      "title": "Categories",
+      "title": "Services",
+      "allServices": "All Services",
       "generalSupplies": "General Supplies",
       "professionalEquipment": "Professional Equipment",
       "technicalMaterials": "Technical Materials",
@@ -231,42 +232,11 @@
     },
     "copyright": "© {year} SOCIÉTÉ M NOUR. All rights reserved."
   },
-  "ProductsPage": {
-    "heroSubtitle": "Our Products",
-    "heroTitle": "Quality Products,",
-    "heroTitleHighlight": "Trusted Solutions",
-    "heroDescription": "Browse our extensive catalog of products across multiple categories. From office supplies to technical equipment, we have everything your business needs.",
-    "searchPlaceholder": "Search products...",
-    "allCategories": "All Categories",
-    "sortBy": "Sort By",
-    "sortDefault": "Default",
-    "sortNameAsc": "Name A-Z",
-    "sortNameDesc": "Name Z-A",
-    "sortPriceLow": "Price: Low to High",
-    "sortPriceHigh": "Price: High to Low",
-    "noResults": "No products found",
-    "noResultsDescription": "Try adjusting your search or filter to find what you're looking for.",
-    "resetFilters": "Reset Filters",
-    "viewDetails": "View Details",
-    "showing": "Showing",
-    "of": "of",
-    "products": "products",
-    "new": "New"
-  },
-  "ProductDetail": {
-    "backToProducts": "Back to Products",
-    "backToCategory": "Back to Category",
-    "category": "Category",
-    "description": "Description",
-    "specifications": "Specifications",
+  "ServiceDetail": {
     "requestQuote": "Request a Quote",
-    "contactUs": "Contact Us for Pricing",
-    "availability": "Availability",
-    "inStock": "In Stock",
-    "sku": "SKU",
-    "recommended": "Recommended Products",
-    "recommendedSubtitle": "You might also like",
-    "viewProduct": "View Product"
+    "contactUs": "Contact Us",
+    "relatedTitle": "Related Services",
+    "relatedSubtitle": "You may also need"
   },
   "AboutPage": {
     "heroSubtitle": "About Us",
@@ -384,6 +354,52 @@
     "ctaTitle": "Ready to get started?",
     "ctaDescription": "Whether you need bulk supplies, specialized equipment, or a reliable distribution partner — we're just a message away.",
     "ctaButton": "Call Us Now"
+  },
+  "ServicesPage": {
+    "heroSubtitle": "Our Services",
+    "heroTitle": "Complete Supply",
+    "heroTitleHighlight": "& Distribution",
+    "heroDescription": "From office consumables to construction works, we provide comprehensive procurement and distribution solutions tailored for businesses, NGOs, and institutions across the Central African Republic.",
+    "groupSupply": "Supply & Distribution",
+    "groupAgriculture": "Agriculture",
+    "groupTechnical": "Technical & Industrial",
+    "groupConstruction": "Construction & Public Works",
+    "groupGeneralServices": "General Services",
+    "viewDetails": "View Details",
+    "sortBy": "Sort By",
+    "sortDefault": "Default",
+    "sortNameAsc": "Name A-Z",
+    "sortNameDesc": "Name Z-A",
+    "searchPlaceholder": "Search services...",
+    "allServices": "All Services",
+    "noResults": "No services found",
+    "noResultsDescription": "Try adjusting your search or filter to find what you're looking for.",
+    "resetFilters": "Reset Filters",
+    "contactBtn": "Contact for Details",
+    "viewProducts": "View Products",
+    "services": {
+      "officeSupplies": { "title": "Office Supplies", "description": "Stationery, paper, pens, binders, and all daily office consumables." },
+      "officeFurniture": { "title": "Office Furniture", "description": "Desks, chairs, shelving, and complete office interior equipment." },
+      "itConsumables": { "title": "IT Consumables", "description": "Ink cartridges, toners, cables, peripherals, and computer accessories." },
+      "labConsumables": { "title": "Laboratory Consumables", "description": "Reagents, glassware, and laboratory supplies for research and healthcare." },
+      "generalHardware": { "title": "General Hardware", "description": "Tools, fasteners, and hardware supplies for maintenance and works." },
+      "cleaningProducts": { "title": "Cleaning & Hygiene Products", "description": "Detergents, disinfectants, and hygiene supplies for offices and institutions." },
+      "foodProducts": { "title": "Food Products", "description": "Staple food items and provisions for institutions and humanitarian operations." },
+      "nfiKits": { "title": "NFI Kits (Non-Food Items)", "description": "Non-Food Item kits for humanitarian aid, emergency relief, and development projects." },
+      "marketGardening": { "title": "Market Gardening Products", "description": "Inputs and supplies for vegetable and market garden cultivation." },
+      "cropSeeds": { "title": "Vegetable & Food Crop Seeds", "description": "Certified seeds adapted to Central African growing conditions with high yield potential." },
+      "agriculturalTools": { "title": "Agricultural Tools", "description": "Hand tools and equipment for field cultivation and agricultural activities." },
+      "automotiveParts": { "title": "Automotive Spare Parts", "description": "Spare parts and components for light vehicles, 4x4 fleet, and transport vehicles." },
+      "truckTires": { "title": "Truck Tires", "description": "Heavy-duty tires for trucks and transport vehicles of all capacities." },
+      "drillingMaterials": { "title": "Drilling Materials & Equipment", "description": "Pipes, pumps, and specialized equipment for water drilling and borehole projects." },
+      "buildingConstruction": { "title": "Building Construction", "description": "Construction of residential, commercial, and institutional buildings to specification." },
+      "publicWorks": { "title": "Public Works (BTP)", "description": "Road works, drainage, infrastructure, and civil engineering projects." },
+      "vehicleRental": { "title": "Vehicle Rental Services", "description": "Short and long-term rental of cars and light utility vehicles." },
+      "vehicleSales": { "title": "Sale of Brand-New Vehicles", "description": "Supply and sale of brand-new passenger cars and utility vehicles." },
+      "importGoods": { "title": "Import of Goods", "description": "Importation of goods and equipment from international suppliers worldwide." },
+      "exportActivities": { "title": "Export Activities", "description": "Export facilitation for local products, commodities, and goods." },
+      "fairOrganization": { "title": "Fair Organization & General Services", "description": "Organization of trade fairs, professional events, and general logistical services." }
+    }
   },
   "LocaleSwitcher": {
     "fr": "Français",
