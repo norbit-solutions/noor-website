@@ -5,12 +5,24 @@
     "name": "Office Supplies",
     "group": "supply",
     "description": "Stationery, paper, pens, binders, and all daily office consumables. We supply everything your office needs for smooth day-to-day operations, sourced from trusted brands with guaranteed quality.",
-    "image": "/images/categories/stationery.avif",
+    "image": "/images/services/office-suppliers.jpg",
     "highlights": [
-      { "label": "Items", "value": "200+" },
-      { "label": "Brands", "value": "Top Quality" },
-      { "label": "Delivery", "value": "Fast" },
-      { "label": "Pricing", "value": "Competitive" }
+      {
+        "label": "Items",
+        "value": "200+"
+      },
+      {
+        "label": "Brands",
+        "value": "Top Quality"
+      },
+      {
+        "label": "Delivery",
+        "value": "Fast"
+      },
+      {
+        "label": "Pricing",
+        "value": "Competitive"
+      }
     ]
   },
   {
@@ -19,12 +31,24 @@
     "name": "Office Furniture",
     "group": "supply",
     "description": "Desks, chairs, shelving units, and complete office interior solutions. We provide ergonomic, durable furniture tailored to professional environments — from executive offices to open-plan workspaces.",
-    "image": "/images/categories/stationery.avif",
+    "image": "/images/services/office-furniture.jpg",
     "highlights": [
-      { "label": "Range", "value": "Full Office" },
-      { "label": "Quality", "value": "Premium" },
-      { "label": "Setup", "value": "Included" },
-      { "label": "Custom", "value": "Available" }
+      {
+        "label": "Range",
+        "value": "Full Office"
+      },
+      {
+        "label": "Quality",
+        "value": "Premium"
+      },
+      {
+        "label": "Setup",
+        "value": "Included"
+      },
+      {
+        "label": "Custom",
+        "value": "Available"
+      }
     ]
   },
   {
@@ -33,12 +57,24 @@
     "name": "IT Consumables",
     "group": "supply",
     "description": "Ink cartridges, toners, cables, peripherals, and computer accessories. Keep your technology running with high-quality consumables compatible with all major brands and equipment.",
-    "image": "/images/categories/stationery.avif",
+    "image": "/images/services/it-consumables.jpg",
     "highlights": [
-      { "label": "Compatibility", "value": "All Brands" },
-      { "label": "Stock", "value": "Always Ready" },
-      { "label": "Quality", "value": "Certified" },
-      { "label": "Support", "value": "Technical" }
+      {
+        "label": "Compatibility",
+        "value": "All Brands"
+      },
+      {
+        "label": "Stock",
+        "value": "Always Ready"
+      },
+      {
+        "label": "Quality",
+        "value": "Certified"
+      },
+      {
+        "label": "Support",
+        "value": "Technical"
+      }
     ]
   },
   {
@@ -47,12 +83,24 @@
     "name": "Laboratory Consumables",
     "group": "supply",
     "description": "Reagents, glassware, protective equipment, and laboratory supplies for research facilities, hospitals, and healthcare institutions. Certified products meeting international standards.",
-    "image": "/images/categories/stationery.avif",
+    "image": "/images/services/laboratory-consumables.jpg",
     "highlights": [
-      { "label": "Standards", "value": "International" },
-      { "label": "Range", "value": "Comprehensive" },
-      { "label": "Certified", "value": "Yes" },
-      { "label": "Sectors", "value": "Health & Research" }
+      {
+        "label": "Standards",
+        "value": "International"
+      },
+      {
+        "label": "Range",
+        "value": "Comprehensive"
+      },
+      {
+        "label": "Certified",
+        "value": "Yes"
+      },
+      {
+        "label": "Sectors",
+        "value": "Health & Research"
+      }
     ]
   },
   {
@@ -61,12 +109,24 @@
     "name": "General Hardware",
     "group": "supply",
     "description": "Tools, fasteners, fittings, and hardware supplies for maintenance, repairs, and construction works. Reliable products for every type of technical and manual project.",
-    "image": "/images/categories/stationery.avif",
+    "image": "/images/services/general-hardware.jpg",
     "highlights": [
-      { "label": "Products", "value": "100+" },
-      { "label": "Durability", "value": "Industrial" },
-      { "label": "Delivery", "value": "Nationwide" },
-      { "label": "Pricing", "value": "Bulk Rates" }
+      {
+        "label": "Products",
+        "value": "100+"
+      },
+      {
+        "label": "Durability",
+        "value": "Industrial"
+      },
+      {
+        "label": "Delivery",
+        "value": "Nationwide"
+      },
+      {
+        "label": "Pricing",
+        "value": "Bulk Rates"
+      }
     ]
   },
   {
@@ -75,12 +135,24 @@
     "name": "Cleaning & Hygiene Products",
     "group": "supply",
     "description": "Detergents, disinfectants, soaps, and hygiene supplies for offices, institutions, and large-scale operations. Professional-grade products ensuring clean, safe environments.",
-    "image": "/images/categories/stationery.avif",
+    "image": "/images/services/cleaning-hygiene-products.jpg",
     "highlights": [
-      { "label": "Grade", "value": "Professional" },
-      { "label": "Volume", "value": "Bulk Available" },
-      { "label": "Safety", "value": "Certified" },
-      { "label": "Range", "value": "Complete" }
+      {
+        "label": "Grade",
+        "value": "Professional"
+      },
+      {
+        "label": "Volume",
+        "value": "Bulk Available"
+      },
+      {
+        "label": "Safety",
+        "value": "Certified"
+      },
+      {
+        "label": "Range",
+        "value": "Complete"
+      }
     ]
   },
   {
@@ -89,12 +161,24 @@
     "name": "Food Products",
     "group": "supply",
     "description": "Staple food items and provisions for institutions, cafeterias, and humanitarian operations. Quality food products sourced and delivered with full respect for health and safety standards.",
-    "image": "/images/categories/stationery.avif",
+    "image": "/images/services/food-products.jpg",
     "highlights": [
-      { "label": "Quality", "value": "Controlled" },
-      { "label": "Supply", "value": "Reliable" },
-      { "label": "Scale", "value": "Institutional" },
-      { "label": "Standards", "value": "Health & Safety" }
+      {
+        "label": "Quality",
+        "value": "Controlled"
+      },
+      {
+        "label": "Supply",
+        "value": "Reliable"
+      },
+      {
+        "label": "Scale",
+        "value": "Institutional"
+      },
+      {
+        "label": "Standards",
+        "value": "Health & Safety"
+      }
     ]
   },
   {
@@ -103,12 +187,24 @@
     "name": "NFI Kits (Non-Food Items)",
     "group": "supply",
     "description": "Non-Food Item kits for humanitarian aid, emergency relief, and development projects. Complete kits assembled and delivered according to international humanitarian standards.",
-    "image": "/images/categories/stationery.avif",
+    "image": "/images/services/nfi-kits.jpg",
     "highlights": [
-      { "label": "Standards", "value": "Humanitarian" },
-      { "label": "Assembly", "value": "Custom Kits" },
-      { "label": "Delivery", "value": "Rapid" },
-      { "label": "Experience", "value": "NGO Partner" }
+      {
+        "label": "Standards",
+        "value": "Humanitarian"
+      },
+      {
+        "label": "Assembly",
+        "value": "Custom Kits"
+      },
+      {
+        "label": "Delivery",
+        "value": "Rapid"
+      },
+      {
+        "label": "Experience",
+        "value": "NGO Partner"
+      }
     ]
   },
   {
@@ -117,12 +213,24 @@
     "name": "Market Gardening Products",
     "group": "agriculture",
     "description": "Inputs and supplies for vegetable and market garden cultivation — fertilizers, plant protection products, and growing accessories adapted to Central African conditions.",
-    "image": "/images/categories/stationery.avif",
+    "image": "/images/services/vegetable-food-crop-seeds.jpg",
     "highlights": [
-      { "label": "Adapted", "value": "Local Climate" },
-      { "label": "Products", "value": "Full Range" },
-      { "label": "Quality", "value": "Certified" },
-      { "label": "Support", "value": "Advisory" }
+      {
+        "label": "Adapted",
+        "value": "Local Climate"
+      },
+      {
+        "label": "Products",
+        "value": "Full Range"
+      },
+      {
+        "label": "Quality",
+        "value": "Certified"
+      },
+      {
+        "label": "Support",
+        "value": "Advisory"
+      }
     ]
   },
   {
@@ -131,12 +239,24 @@
     "name": "Vegetable & Food Crop Seeds",
     "group": "agriculture",
     "description": "Certified seeds with excellent germination rates, specially selected for Central African growing conditions. High-yield varieties for both subsistence and commercial farming.",
-    "image": "/images/categories/stationery.avif",
+    "image": "/images/services/vegetable-food-crop-seeds.jpg",
     "highlights": [
-      { "label": "Germination", "value": "95%+" },
-      { "label": "Certification", "value": "Grade A" },
-      { "label": "Varieties", "value": "Multiple" },
-      { "label": "Adapted", "value": "Local" }
+      {
+        "label": "Germination",
+        "value": "95%+"
+      },
+      {
+        "label": "Certification",
+        "value": "Grade A"
+      },
+      {
+        "label": "Varieties",
+        "value": "Multiple"
+      },
+      {
+        "label": "Adapted",
+        "value": "Local"
+      }
     ]
   },
   {
@@ -145,12 +265,24 @@
     "name": "Agricultural Tools",
     "group": "agriculture",
     "description": "Hand tools, wheelbarrows, sprayers, and equipment for field cultivation and agricultural activities. Durable, practical tools built for intensive use in farming environments.",
-    "image": "/images/categories/stationery.avif",
+    "image": "/images/services/agricultural-tools.jpg",
     "highlights": [
-      { "label": "Durability", "value": "Heavy Duty" },
-      { "label": "Range", "value": "Complete" },
-      { "label": "Quality", "value": "Professional" },
-      { "label": "Pricing", "value": "Competitive" }
+      {
+        "label": "Durability",
+        "value": "Heavy Duty"
+      },
+      {
+        "label": "Range",
+        "value": "Complete"
+      },
+      {
+        "label": "Quality",
+        "value": "Professional"
+      },
+      {
+        "label": "Pricing",
+        "value": "Competitive"
+      }
     ]
   },
   {
@@ -159,12 +291,24 @@
     "name": "Automotive Spare Parts",
     "group": "technical",
     "description": "Spare parts and components for light vehicles, 4x4 fleet, and transport vehicles. Original and compatible parts with quality guarantees for all makes and models.",
-    "image": "/images/categories/stationery.avif",
+    "image": "/images/services/automotive-spare-parts.jpg",
     "highlights": [
-      { "label": "Makes", "value": "All Brands" },
-      { "label": "Parts", "value": "OEM & Compatible" },
-      { "label": "Warranty", "value": "Guaranteed" },
-      { "label": "Stock", "value": "Available" }
+      {
+        "label": "Makes",
+        "value": "All Brands"
+      },
+      {
+        "label": "Parts",
+        "value": "OEM & Compatible"
+      },
+      {
+        "label": "Warranty",
+        "value": "Guaranteed"
+      },
+      {
+        "label": "Stock",
+        "value": "Available"
+      }
     ]
   },
   {
@@ -173,12 +317,24 @@
     "name": "Truck Tires",
     "group": "technical",
     "description": "Heavy-duty tires for trucks and transport vehicles of all capacities. Reliable tires for long-distance hauling, construction sites, and demanding road conditions.",
-    "image": "/images/categories/stationery.avif",
+    "image": "/images/services/truck-tires.jpg",
     "highlights": [
-      { "label": "Load", "value": "Heavy Duty" },
-      { "label": "Brands", "value": "Premium" },
-      { "label": "Sizes", "value": "All Types" },
-      { "label": "Durability", "value": "Proven" }
+      {
+        "label": "Load",
+        "value": "Heavy Duty"
+      },
+      {
+        "label": "Brands",
+        "value": "Premium"
+      },
+      {
+        "label": "Sizes",
+        "value": "All Types"
+      },
+      {
+        "label": "Durability",
+        "value": "Proven"
+      }
     ]
   },
   {
@@ -187,12 +343,24 @@
     "name": "Drilling Materials & Equipment",
     "group": "technical",
     "description": "Pipes, pumps, casings, and specialized equipment for water drilling and borehole projects. Complete technical solutions for water access infrastructure.",
-    "image": "/images/categories/stationery.avif",
+    "image": "/images/services/drilling-materials-equipment.jpg",
     "highlights": [
-      { "label": "Scope", "value": "Full Project" },
-      { "label": "Equipment", "value": "Specialized" },
-      { "label": "Standards", "value": "International" },
-      { "label": "Support", "value": "Technical" }
+      {
+        "label": "Scope",
+        "value": "Full Project"
+      },
+      {
+        "label": "Equipment",
+        "value": "Specialized"
+      },
+      {
+        "label": "Standards",
+        "value": "International"
+      },
+      {
+        "label": "Support",
+        "value": "Technical"
+      }
     ]
   },
   {
@@ -201,12 +369,24 @@
     "name": "Building Construction",
     "group": "construction",
     "description": "Construction of residential, commercial, and institutional buildings to specification. End-to-end project management from design assistance through to handover.",
-    "image": "/images/categories/stationery.avif",
+    "image": "/images/services/building-construction.jpg",
     "highlights": [
-      { "label": "Types", "value": "All Buildings" },
-      { "label": "Management", "value": "End-to-End" },
-      { "label": "Standards", "value": "Professional" },
-      { "label": "Delivery", "value": "On Schedule" }
+      {
+        "label": "Types",
+        "value": "All Buildings"
+      },
+      {
+        "label": "Management",
+        "value": "End-to-End"
+      },
+      {
+        "label": "Standards",
+        "value": "Professional"
+      },
+      {
+        "label": "Delivery",
+        "value": "On Schedule"
+      }
     ]
   },
   {
@@ -215,12 +395,24 @@
     "name": "Public Works (BTP)",
     "group": "construction",
     "description": "Road works, drainage, infrastructure, and civil engineering projects. Comprehensive Building and Public Works services meeting government and institutional requirements.",
-    "image": "/images/categories/stationery.avif",
+    "image": "/images/services/public-works-btp.jpg",
     "highlights": [
-      { "label": "Scope", "value": "Infrastructure" },
-      { "label": "Compliance", "value": "Government" },
-      { "label": "Capacity", "value": "Large Scale" },
-      { "label": "Experience", "value": "Proven" }
+      {
+        "label": "Scope",
+        "value": "Infrastructure"
+      },
+      {
+        "label": "Compliance",
+        "value": "Government"
+      },
+      {
+        "label": "Capacity",
+        "value": "Large Scale"
+      },
+      {
+        "label": "Experience",
+        "value": "Proven"
+      }
     ]
   },
   {
@@ -229,12 +421,24 @@
     "name": "Vehicle Rental Services",
     "group": "services",
     "description": "Short and long-term rental of passenger cars, 4x4 vehicles, and light utility vehicles. Flexible rental solutions for businesses, NGOs, and project teams.",
-    "image": "/images/categories/stationery.avif",
+    "image": "/images/services/vehicle-rental-services.jpg",
     "highlights": [
-      { "label": "Duration", "value": "Flexible" },
-      { "label": "Fleet", "value": "Diverse" },
-      { "label": "Maintenance", "value": "Included" },
-      { "label": "Coverage", "value": "Nationwide" }
+      {
+        "label": "Duration",
+        "value": "Flexible"
+      },
+      {
+        "label": "Fleet",
+        "value": "Diverse"
+      },
+      {
+        "label": "Maintenance",
+        "value": "Included"
+      },
+      {
+        "label": "Coverage",
+        "value": "Nationwide"
+      }
     ]
   },
   {
@@ -243,12 +447,24 @@
     "name": "Sale of Brand-New Vehicles",
     "group": "services",
     "description": "Supply and sale of brand-new passenger cars and utility vehicles. Official sourcing from manufacturers with full documentation and warranty.",
-    "image": "/images/categories/stationery.avif",
+    "image": "/images/services/sale-of-brand-new-vehicles.jpg",
     "highlights": [
-      { "label": "Condition", "value": "Brand New" },
-      { "label": "Warranty", "value": "Manufacturer" },
-      { "label": "Types", "value": "Cars & Utility" },
-      { "label": "Documentation", "value": "Complete" }
+      {
+        "label": "Condition",
+        "value": "Brand New"
+      },
+      {
+        "label": "Warranty",
+        "value": "Manufacturer"
+      },
+      {
+        "label": "Types",
+        "value": "Cars & Utility"
+      },
+      {
+        "label": "Documentation",
+        "value": "Complete"
+      }
     ]
   },
   {
@@ -257,12 +473,24 @@
     "name": "Import of Goods",
     "group": "services",
     "description": "Importation of goods and equipment from international suppliers worldwide. Full customs handling, logistics coordination, and delivery to your location.",
-    "image": "/images/categories/stationery.avif",
+    "image": "/images/services/import-of-goods.jpg",
     "highlights": [
-      { "label": "Sources", "value": "Worldwide" },
-      { "label": "Customs", "value": "Handled" },
-      { "label": "Logistics", "value": "End-to-End" },
-      { "label": "Compliance", "value": "Full" }
+      {
+        "label": "Sources",
+        "value": "Worldwide"
+      },
+      {
+        "label": "Customs",
+        "value": "Handled"
+      },
+      {
+        "label": "Logistics",
+        "value": "End-to-End"
+      },
+      {
+        "label": "Compliance",
+        "value": "Full"
+      }
     ]
   },
   {
@@ -271,12 +499,24 @@
     "name": "Export Activities",
     "group": "services",
     "description": "Export facilitation for local products, commodities, and goods. Documentation, compliance, and logistics managed for smooth international trade operations.",
-    "image": "/images/categories/stationery.avif",
+    "image": "/images/services/export-activities.jpg",
     "highlights": [
-      { "label": "Markets", "value": "International" },
-      { "label": "Documentation", "value": "Full" },
-      { "label": "Compliance", "value": "Managed" },
-      { "label": "Support", "value": "Dedicated" }
+      {
+        "label": "Markets",
+        "value": "International"
+      },
+      {
+        "label": "Documentation",
+        "value": "Full"
+      },
+      {
+        "label": "Compliance",
+        "value": "Managed"
+      },
+      {
+        "label": "Support",
+        "value": "Dedicated"
+      }
     ]
   },
   {
@@ -285,12 +525,24 @@
     "name": "Fair Organization & General Services",
     "group": "services",
     "description": "Organization of trade fairs, professional events, and general logistical services. Complete event management from planning and setup through to execution and teardown.",
-    "image": "/images/categories/stationery.avif",
+    "image": "/images/services/fair-organization-general-services.jpg",
     "highlights": [
-      { "label": "Events", "value": "Trade Fairs" },
-      { "label": "Management", "value": "End-to-End" },
-      { "label": "Logistics", "value": "Complete" },
-      { "label": "Experience", "value": "Professional" }
+      {
+        "label": "Events",
+        "value": "Trade Fairs"
+      },
+      {
+        "label": "Management",
+        "value": "End-to-End"
+      },
+      {
+        "label": "Logistics",
+        "value": "Complete"
+      },
+      {
+        "label": "Experience",
+        "value": "Professional"
+      }
     ]
   }
 ]

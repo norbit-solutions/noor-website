@@ -248,6 +248,44 @@
     "storyP1": "Founded in 2021 in Bangui, SOCIÉTÉ M NOUR was born from a simple yet powerful vision: to bridge the gap between quality products and the businesses that need them most.",
     "storyP2": "In a market where reliability and transparency are paramount, we set out to create a supply and distribution company that our clients could truly depend on. From day one, our commitment has been to deliver products that meet the highest standards, at transparent prices, and always on time.",
     "storyP3": "Today, we proudly serve over 50 clients across diverse sectors — from international NGOs to local businesses and government institutions — providing everything from office supplies and professional equipment to technical materials and agricultural products.",
+    "timeline": [
+      {
+        "year": "2021",
+        "title": "Foundation",
+        "description": "SOCIÉTÉ M NOUR is founded in Bangui with a clear mission: provide reliable, accessible supply and distribution services to businesses, NGOs, and institutions in Central African Republic.",
+        "highlights": ["Company legally registered", "First office opened in Bangui", "Initial supplier network established"]
+      },
+      {
+        "year": "2022",
+        "title": "First Contracts",
+        "description": "First major contracts signed with private companies and institutional clients. The team demonstrates its commitment to quality, transparent pricing, and on-time delivery.",
+        "highlights": ["First B2B contracts signed", "Delivery processes formalized", "Supplier relationships expanded"]
+      },
+      {
+        "year": "2023",
+        "title": "Growing Network",
+        "description": "The client portfolio grows steadily. NGOs and development projects begin partnering with M NOUR for procurement needs, recognizing the company's reliability and professionalism.",
+        "highlights": ["50+ clients served", "NGO & development sector partnerships", "Wider product catalog"]
+      },
+      {
+        "year": "2024",
+        "title": "Trusted Partner",
+        "description": "M NOUR becomes a go-to partner for public and private sector procurement. Agricultural inputs, technical materials, and humanitarian kits are added to the service offering.",
+        "highlights": ["Public sector contracts", "Agricultural & NFI kits added", "500+ product references"]
+      },
+      {
+        "year": "2025",
+        "title": "Expanded Services",
+        "description": "Service range extended to include building construction, public works (BTP), vehicle distribution, and import/export activities — becoming a full-spectrum procurement partner.",
+        "highlights": ["Construction & BTP services launched", "Vehicle sales & rental added", "Import/export operations begun"]
+      },
+      {
+        "year": "2026",
+        "title": "Looking Forward",
+        "description": "Continuing to grow and innovate, M NOUR is committed to delivering excellence across all service areas — from daily office supplies to large-scale infrastructure projects.",
+        "highlights": ["Ongoing expansion", "New sector partnerships", "Commitment to excellence"]
+      }
+    ],
     "founderSubtitle": "Leadership",
     "founderTitle": "Meet Our Founder",
     "founderName": "Mahamat Nour Zakaria Sakine",
