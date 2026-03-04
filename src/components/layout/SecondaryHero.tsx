@@ -103,7 +103,7 @@ export default function SecondaryHero({
   return (
     <section
       ref={sectionRef}
-      className="relative h-[70svh] md:min-h-screen flex items-center overflow-hidden"
+      className="relative min-h-[70svh] md:min-h-screen flex items-center overflow-hidden"
     >
       {/* Background Image */}
       <div className="absolute inset-0" ref={imageRef} style={{ opacity: 0 }}>

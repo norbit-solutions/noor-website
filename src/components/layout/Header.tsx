@@ -6,94 +6,9 @@ import { usePathname } from "next/navigation";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 
-const CATEGORY_ITEMS = [
-  {
-    key: "generalSupplies" as const,
-    href: "/categories/general-supplies",
-    icon: (
-      <svg
-        className="h-5 w-5"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke="currentColor"
-        strokeWidth={1.5}
-      >
-        <path
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          d="M20.25 7.5l-.625 10.632a2.25 2.25 0 01-2.247 2.118H6.622a2.25 2.25 0 01-2.247-2.118L3.75 7.5M10 11.25h4M3.375 7.5h17.25c.621 0 1.125-.504 1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125z"
-        />
-      </svg>
-    ),
-  },
-  {
-    key: "professionalEquipment" as const,
-    href: "/categories/professional-equipment",
-    icon: (
-      <svg
-        className="h-5 w-5"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke="currentColor"
-        strokeWidth={1.5}
-      >
-        <path
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          d="M11.42 15.17l-5.1-5.1a2.25 2.25 0 010-3.182l.71-.71a2.25 2.25 0 013.182 0l1.79 1.79 1.79-1.79a2.25 2.25 0 013.182 0l.71.71a2.25 2.25 0 010 3.182l-5.1 5.1a.75.75 0 01-1.06 0z"
-        />
-        <path
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          d="M6.75 21h10.5M12 18v3"
-        />
-      </svg>
-    ),
-  },
-  {
-    key: "technicalMaterials" as const,
-    href: "/categories/technical-materials",
-    icon: (
-      <svg
-        className="h-5 w-5"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke="currentColor"
-        strokeWidth={1.5}
-      >
-        <path
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          d="M11.42 15.17l-5.1-5.1a2.25 2.25 0 010-3.182l.71-.71a2.25 2.25 0 013.182 0l4.59 4.59m-4.59-4.59l4.59 4.59m0 0l-1.79 1.79m1.79-1.79l1.79 1.79M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-        />
-      </svg>
-    ),
-  },
-  {
-    key: "agriculturalProducts" as const,
-    href: "/categories/agricultural-products",
-    icon: (
-      <svg
-        className="h-5 w-5"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke="currentColor"
-        strokeWidth={1.5}
-      >
-        <path
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z"
-        />
-      </svg>
-    ),
-  },
-];
-
 export default function Header() {
   const t = useTranslations("Header");
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [showCategories, setShowCategories] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const pathname = usePathname();
   const isHomePage = pathname === "/";
@@ -106,7 +21,6 @@ export default function Header() {
     prevPathnameRef.current = pathname;
     if (isMenuOpen) {
       setIsMenuOpen(false);
-      setShowCategories(false);
     }
   }
 
@@ -136,13 +50,12 @@ export default function Header() {
 
   const handleCloseMenu = () => {
     setIsMenuOpen(false);
-    setShowCategories(false);
   };
 
-  const menuItems = [
+  const menuItems: { label: string; href: string }[] = [
     { label: t("menuItems.home"), href: "/" },
     { label: t("menuItems.about"), href: "/about" },
-    { label: t("menuItems.categories"), href: "#", isCategories: true },
+    { label: t("menuItems.categories"), href: "/services" },
     { label: t("menuItems.contact"), href: "/contact" },
   ];
 
@@ -260,134 +173,31 @@ export default function Header() {
           </div>
 
           {/* Main Menu */}
-          <nav
-            className={`flex-1 overflow-y-auto py-4 px-8 transition-all duration-400 ease-out ${
-              showCategories
-                ? "-translate-x-full opacity-0"
-                : "translate-x-0 opacity-100"
-            }`}
-          >
+          <nav className="flex-1 overflow-y-auto py-4 px-8">
             <ul className="space-y-6">
               {menuItems.map((item, index) => (
                 <li
                   key={index}
                   className="transform transition-all duration-500"
                   style={{
-                    transitionDelay:
-                      isMenuOpen && !showCategories ? `${index * 80}ms` : "0ms",
-                    opacity: isMenuOpen && !showCategories ? 1 : 0,
-                    transform:
-                      isMenuOpen && !showCategories
-                        ? "translateX(0)"
-                        : "translateX(20px)",
+                    transitionDelay: isMenuOpen ? `${index * 80}ms` : "0ms",
+                    opacity: isMenuOpen ? 1 : 0,
+                    transform: isMenuOpen
+                      ? "translateX(0)"
+                      : "translateX(20px)",
                   }}
                 >
-                  {item.isCategories ? (
-                    <button
-                      onClick={() => setShowCategories(true)}
-                      className="flex w-full items-center justify-between text-lg font-normal leading-tight tracking-tight hover:text-[#06ac5e] transition-colors"
-                    >
-                      {item.label}
-                      <svg
-                        className="h-4 w-4"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor"
-                        strokeWidth={2}
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          d="M8.25 4.5l7.5 7.5-7.5 7.5"
-                        />
-                      </svg>
-                    </button>
-                  ) : (
-                    <Link
-                      href={item.href}
-                      onClick={handleCloseMenu}
-                      className="block text-lg font-normal leading-tight tracking-tight hover:text-[#06ac5e] transition-colors"
-                    >
-                      {item.label}
-                    </Link>
-                  )}
+                  <Link
+                    href={item.href}
+                    onClick={handleCloseMenu}
+                    className="block text-lg font-normal leading-tight tracking-tight hover:text-[#06ac5e] transition-colors"
+                  >
+                    {item.label}
+                  </Link>
                 </li>
               ))}
             </ul>
           </nav>
-
-          {/* Categories Submenu (slides over the main menu) */}
-          <div
-            className={`absolute inset-0 top-18 flex flex-col bg-white transition-all duration-400 ease-out ${
-              showCategories
-                ? "translate-x-0 opacity-100"
-                : "translate-x-full opacity-0"
-            }`}
-          >
-            {/* Back Button */}
-            <div className="px-8 pt-4 pb-6">
-              <button
-                onClick={() => setShowCategories(false)}
-                className="group flex items-center gap-3 text-sm font-medium uppercase tracking-widest text-[#06ac5e] hover:text-black transition-colors"
-              >
-                <svg
-                  className="h-4 w-4 transition-transform duration-300 group-hover:-translate-x-1"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  strokeWidth={2}
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M15.75 19.5L8.25 12l7.5-7.5"
-                  />
-                </svg>
-                {t("back")}
-              </button>
-            </div>
-
-            {/* Categories Title */}
-            <div className="px-8 mb-8">
-              <h3 className="text-xs font-semibold uppercase tracking-[0.2em] text-gray-400">
-                {t("categories.title")}
-              </h3>
-            </div>
-
-            {/* Categories List */}
-            <nav className="flex-1 overflow-y-auto px-8">
-              <ul className="space-y-2">
-                {CATEGORY_ITEMS.map((category, index) => (
-                  <li
-                    key={category.key}
-                    className="transform transition-all duration-500"
-                    style={{
-                      transitionDelay: showCategories
-                        ? `${index * 80 + 100}ms`
-                        : "0ms",
-                      opacity: showCategories ? 1 : 0,
-                      transform: showCategories
-                        ? "translateX(0)"
-                        : "translateX(20px)",
-                    }}
-                  >
-                    <Link
-                      href={category.href}
-                      onClick={handleCloseMenu}
-                      className="group flex items-center gap-4 py-3 text-black hover:text-[#06ac5e] transition-colors"
-                    >
-                      <span className="flex h-10 w-10 items-center justify-center border border-gray-200 text-gray-400 transition-all duration-300 group-hover:border-black group-hover:text-black">
-                        {category.icon}
-                      </span>
-                      <span className="text-base font-normal tracking-tight">
-                        {t(`categories.${category.key}`)}
-                      </span>
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </nav>
-          </div>
         </div>
       </div>
     </>

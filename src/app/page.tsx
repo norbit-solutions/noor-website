@@ -1,5 +1,4 @@
 import FeaturedCategories from "@/components/home/FeaturedCategories";
-import FeaturedProducts from "@/components/home/FeaturedProducts";
 import WhyChooseUs from "@/components/home/WhyChooseUs";
 import BulkOrders from "@/components/home/SpecialOffers";
 import AboutSection from "@/components/home/AboutSection";
@@ -17,7 +16,6 @@ export default function Home() {
     <main>
       <HeroSection />
       <FeaturedCategories />
-      <FeaturedProducts />
       <WhyChooseUs />
       <BulkOrders />
       <AboutSection />
