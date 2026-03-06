@@ -82,19 +82,19 @@ export default function OurStory() {
           height: "100dvh",
         }
       : mode === "after"
-      ? {
-          // Anchor to the bottom of the wrapper so the panel scrolls
-          // naturally upward with the page instead of snapping away.
-          position: "absolute",
-          bottom: 0,
-          left: 0,
-          width: "100%",
-          height: "100dvh",
-        }
-      : {
-          // "before" — sits at the top of the wrapper in normal flow
-          position: "relative",
-        };
+        ? {
+            // Anchor to the bottom of the wrapper so the panel scrolls
+            // naturally upward with the page instead of snapping away.
+            position: "absolute",
+            bottom: 0,
+            left: 0,
+            width: "100%",
+            height: "100dvh",
+          }
+        : {
+            // "before" — sits at the top of the wrapper in normal flow
+            position: "relative",
+          };
 
   return (
     <section id="story" className="bg-white">
