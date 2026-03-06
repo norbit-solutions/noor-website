@@ -10,6 +10,7 @@
       "home": "Home",
       "about": "About",
       "categories": "Services",
+      "partners": "Partners",
       "contact": "Contact Us"
     },
     "categories": {
@@ -145,9 +146,11 @@
   "Brands": {
     "subtitle": "Trusted Partners",
     "title": "Our Best Customers",
+    "description": "We are proud to work alongside leading organizations, NGOs and institutions who trust us for their supply needs.",
     "partnering": "Trusted by",
-    "brandsCount": "100+",
-    "brandsLabel": "satisfied clients"
+    "brandsCount": "50+",
+    "brandsLabel": "satisfied clients",
+    "viewAll": "View All Partners"
   },
   "Suppliers": {
     "subtitle": "Our Suppliers",
@@ -214,6 +217,7 @@
       "home": "Home",
       "title": "Company",
       "about": "About Us",
+      "partners": "Our Partners",
       "story": "Our Story",
       "careers": "Careers",
       "news": "News"
@@ -438,6 +442,53 @@
       "exportActivities": { "title": "Export Activities", "description": "Export facilitation for local products, commodities, and goods." },
       "fairOrganization": { "title": "Fair Organization & General Services", "description": "Organization of trade fairs, professional events, and general logistical services." }
     }
+  },
+  "PartnersPage": {
+    "heroSubtitle": "Trusted Partners",
+    "heroTitle": "Our Best",
+    "heroTitleHighlight": "Customers",
+    "heroDescription": "We are honored to serve a growing network of organizations, NGOs, businesses and institutions who trust SOCIÉTÉ M NOUR for reliable supply and distribution services across the Central African Republic.",
+    "stats": {
+      "partnersValue": "100+",
+      "partners": "Trusted Partners",
+      "countriesValue": "5+",
+      "countries": "Regions Served",
+      "projectsValue": "50+",
+      "projects": "Projects Delivered",
+      "satisfactionValue": "99%",
+      "satisfaction": "Satisfaction Rate"
+    },
+    "marqueeSubtitle": "Trusted By The Best",
+    "marqueeTitle": "Partners In Motion",
+    "gridSubtitle": "Complete Network",
+    "gridTitle": "All Our Partners",
+    "gridDescription": "Explore the full roster of organizations and businesses that rely on us for their procurement and distribution needs.",
+    "partnering": "Proudly serving",
+    "partnersCount": "100+",
+    "partnersLabel": "organizations and businesses",
+    "whySubtitle": "Why Partner With Us",
+    "whyTitle": "Built On Trust",
+    "whyReasons": {
+      "reliability": {
+        "title": "Proven Reliability",
+        "description": "Consistent on-time delivery and dependable service that our partners can count on, every single time."
+      },
+      "quality": {
+        "title": "Quality Assurance",
+        "description": "Every product is rigorously checked to ensure it meets the highest standards before reaching our partners."
+      },
+      "transparency": {
+        "title": "Full Transparency",
+        "description": "Open pricing, clear communication and honest business practices at every step of the process."
+      },
+      "support": {
+        "title": "Dedicated Support",
+        "description": "A responsive team always ready to assist with any request, question or special requirement."
+      }
+    },
+    "ctaTitle": "Become A Partner",
+    "ctaDescription": "Join our growing network of trusted partners. Whether you are an NGO, institution or business — we would love to work with you.",
+    "ctaButton": "Get In Touch"
   },
   "LocaleSwitcher": {
     "fr": "Français",

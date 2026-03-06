@@ -10,6 +10,7 @@
       "home": "Accueil",
       "about": "À Propos",
       "categories": "Services",
+      "partners": "Partenaires",
       "contact": "Contactez-Nous"
     },
     "categories": {
@@ -126,7 +127,7 @@
         "description": "Au service de nos clients depuis 2021"
       },
       "projects": {
-        "value": "100+",
+        "value": "50+",
         "label": "Projets Réalisés",
         "description": "Pour entreprises, ONG et institutions"
       },
@@ -145,9 +146,11 @@
   "Brands": {
     "subtitle": "Partenaires de Confiance",
     "title": "Nos Meilleurs Clients",
+    "description": "Nous sommes fiers de collaborer avec des organisations, ONG et institutions de premier plan qui nous font confiance pour leurs besoins en approvisionnement.",
     "partnering": "Fait confiance par",
     "brandsCount": "50+",
-    "brandsLabel": "clients satisfaits"
+    "brandsLabel": "clients satisfaits",
+    "viewAll": "Voir Tous les Partenaires"
   },
   "Suppliers": {
     "subtitle": "Nos Fournisseurs",
@@ -214,6 +217,7 @@
       "title": "Entreprise",
       "home": "Accueil",
       "about": "À Propos",
+      "partners": "Nos Partenaires",
       "story": "Notre Histoire",
       "careers": "Carrières",
       "news": "Actualités"
@@ -438,6 +442,53 @@
       "exportActivities": { "title": "Activités d'Exportation", "description": "Facilitation des exportations de produits, marchandises et matières premières locaux." },
       "fairOrganization": { "title": "Organisation de Foires & Services Généraux", "description": "Organisation de foires commerciales, événements professionnels et services logistiques généraux." }
     }
+  },
+  "PartnersPage": {
+    "heroSubtitle": "Partenaires de Confiance",
+    "heroTitle": "Nos Meilleurs",
+    "heroTitleHighlight": "Clients",
+    "heroDescription": "Nous sommes honorés de servir un réseau croissant d'organisations, ONG, entreprises et institutions qui font confiance à SOCIÉTÉ M NOUR pour des services fiables de fourniture et distribution en République Centrafricaine.",
+    "stats": {
+      "partnersValue": "100+",
+      "partners": "Partenaires de Confiance",
+      "countriesValue": "5+",
+      "countries": "Régions Desservies",
+      "projectsValue": "50+",
+      "projects": "Projets Réalisés",
+      "satisfactionValue": "99%",
+      "satisfaction": "Taux de Satisfaction"
+    },
+    "marqueeSubtitle": "Fait Confiance Par Les Meilleurs",
+    "marqueeTitle": "Partenaires En Mouvement",
+    "gridSubtitle": "Réseau Complet",
+    "gridTitle": "Tous Nos Partenaires",
+    "gridDescription": "Découvrez l'ensemble des organisations et entreprises qui comptent sur nous pour leurs besoins d'approvisionnement et de distribution.",
+    "partnering": "Au service de",
+    "partnersCount": "100+",
+    "partnersLabel": "organisations et entreprises",
+    "whySubtitle": "Pourquoi Nous Choisir",
+    "whyTitle": "Bâti Sur La Confiance",
+    "whyReasons": {
+      "reliability": {
+        "title": "Fiabilité Prouvée",
+        "description": "Livraison ponctuelle et service fiable sur lesquels nos partenaires peuvent compter, à chaque fois."
+      },
+      "quality": {
+        "title": "Assurance Qualité",
+        "description": "Chaque produit est rigoureusement contrôlé pour garantir les normes les plus élevées avant d'atteindre nos partenaires."
+      },
+      "transparency": {
+        "title": "Transparence Totale",
+        "description": "Tarification ouverte, communication claire et pratiques commerciales honnêtes à chaque étape."
+      },
+      "support": {
+        "title": "Accompagnement Dédié",
+        "description": "Une équipe réactive toujours prête à aider pour toute demande, question ou exigence particulière."
+      }
+    },
+    "ctaTitle": "Devenez Partenaire",
+    "ctaDescription": "Rejoignez notre réseau croissant de partenaires de confiance. Que vous soyez une ONG, une institution ou une entreprise — nous serions ravis de travailler avec vous.",
+    "ctaButton": "Contactez-Nous"
   },
   "LocaleSwitcher": {
     "fr": "Français",

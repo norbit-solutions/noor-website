@@ -30,7 +30,7 @@ const FOOTER_LINKS = {
   company: [
     { key: "home" as const, href: "/" },
     { key: "about" as const, href: "/about" },
-    // { key: "contact" as const, href: "/contact" },
+    { key: "partners" as const, href: "/partners" },
     // { key: "careers" as const, href: "/careers" },
     // { key: "news" as const, href: "/news" },
   ],

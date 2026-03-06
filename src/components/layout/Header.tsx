@@ -56,6 +56,7 @@ export default function Header() {
     { label: t("menuItems.home"), href: "/" },
     { label: t("menuItems.about"), href: "/about" },
     { label: t("menuItems.categories"), href: "/services" },
+    { label: t("menuItems.partners"), href: "/partners" },
     { label: t("menuItems.contact"), href: "/contact" },
   ];
 

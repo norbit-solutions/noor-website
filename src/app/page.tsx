@@ -4,7 +4,7 @@ import BulkOrders from "@/components/home/SpecialOffers";
 import AboutSection from "@/components/home/AboutSection";
 import Statistics from "@/components/home/Statistics";
 import BrandsCarousel from "@/components/home/BrandsCarousel";
-import SuppliersGrid from "@/components/home/SuppliersGrid";
+import SuppliersMarquee from "@/components/home/SuppliersMarquee";
 import Testimonials from "@/components/home/Testimonials";
 import Newsletter from "@/components/home/Newsletter";
 import ContactCTA from "@/components/home/ContactCTA";
@@ -20,8 +20,8 @@ export default function Home() {
       <BulkOrders />
       <AboutSection />
       <Statistics />
+      <SuppliersMarquee />
       <BrandsCarousel />
-      <SuppliersGrid />
       <Testimonials />
       <Newsletter />
       <ContactCTA />

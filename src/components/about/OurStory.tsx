@@ -81,8 +81,18 @@ export default function OurStory() {
           width: panelPos.width,
           height: "100dvh",
         }
+      : mode === "after"
+      ? {
+          // Anchor to the bottom of the wrapper so the panel scrolls
+          // naturally upward with the page instead of snapping away.
+          position: "absolute",
+          bottom: 0,
+          left: 0,
+          width: "100%",
+          height: "100dvh",
+        }
       : {
-          // "before" and "after" — relative inside the wrapper
+          // "before" — sits at the top of the wrapper in normal flow
           position: "relative",
         };
 
@@ -137,12 +147,12 @@ export default function OurStory() {
             </p>
 
             {/* Description */}
-            <p
+            {/* <p
               className="mt-5 text-gray-500 text-base leading-relaxed max-w-sm transition-all duration-500"
               key={`d-${active?.year}`}
             >
               {active?.description}
-            </p>
+            </p> */}
 
             {/* Progress bar */}
             <div className="mt-10 w-full max-w-xs">

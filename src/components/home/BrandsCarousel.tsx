@@ -1,11 +1,12 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { useTranslations } from "next-intl";
 
-const BRANDS = Array.from({ length: 56 }, (_, i) => ({
+const FEATURED_PARTNERS = Array.from({ length: 5 }, (_, i) => ({
   id: i + 1,
-  name: `Brand ${i + 1}`,
+  name: `Partner ${i + 1}`,
   logo: `/images/brand-logos/${i + 1}.png`,
 }));
 
@@ -13,70 +14,71 @@ export default function BrandsCarousel() {
   const t = useTranslations("Brands");
 
   return (
-    <section className="overflow-hidden bg-white px-6 py-24 sm:px-12 md:px-16 lg:px-20">
-      {/* Section Header */}
-      <div className="mb-16 text-center" data-aos="fade-right">
-        <span className="mb-4 inline-block text-xs font-medium uppercase tracking-[0.3em] text-[#06ac5e]">
-          {t("subtitle")}
-        </span>
-        <h2 className="text-stylish text-black">{t("title")}</h2>
-      </div>
+    <section className="bg-gray-50 px-6 py-24 sm:px-12 md:px-16 lg:px-20">
+      <div className="mx-auto max-w-6xl">
+        {/* Section Header */}
+        <div className="mb-16 text-center" data-aos="fade-up">
+          <span className="mb-4 inline-block text-xs font-medium uppercase tracking-[0.3em] text-[#06ac5e]">
+            {t("subtitle")}
+          </span>
+          <h2 className="text-stylish text-black">{t("title")}</h2>
+          <p className="mx-auto mt-4 max-w-lg text-sm leading-relaxed text-gray-500">
+            {t("description")}
+          </p>
+        </div>
 
-      {/* Infinite Scroll Container */}
-      <div className="relative" data-aos="fade-left" data-aos-delay="200">
-        {/* Gradient Overlays */}
-        <div className="pointer-events-none absolute left-0 top-0 z-10 h-full w-20 bg-gradient-to-r from-gray-50 to-transparent" />
-        <div className="pointer-events-none absolute right-0 top-0 z-10 h-full w-20 bg-gradient-to-l from-gray-50 to-transparent" />
-
-        {/* Scrolling Track */}
-        <div className="flex animate-scroll">
-          {/* First Set */}
-          {BRANDS.map((brand) => (
+        {/* Featured Partners — Clean Grid */}
+        <div
+          className="mb-12 grid grid-cols-2 gap-px overflow-hidden bg-gray-200 sm:grid-cols-3 md:grid-cols-5"
+          data-aos="fade-up"
+          data-aos-delay="100"
+        >
+          {FEATURED_PARTNERS.map((partner) => (
             <div
-              key={brand.id}
-              className="group mx-8 flex h-24 w-40 shrink-0 items-center justify-center grayscale transition-all duration-300 hover:grayscale-0"
+              key={partner.id}
+              className="group relative flex h-32 items-center justify-center bg-white p-6 transition-all duration-500 "
             >
-              <div className="relative h-full w-full">
+              <div className="relative h-full w-full opacity-40 grayscale transition-all duration-500 group-hover:scale-110 group-hover:opacity-100 group-hover:grayscale-0">
                 <Image
-                  src={brand.logo}
-                  alt={brand.name}
+                  src={partner.logo}
+                  alt={partner.name}
                   fill
-                  className="object-contain opacity-90 transition-opacity duration-300 group-hover:opacity-100"
-                />
-              </div>
-            </div>
-          ))}
-
-          {/* Duplicate Set for Seamless Loop */}
-          {BRANDS.map((brand) => (
-            <div
-              key={`dup-${brand.id}`}
-              className="group mx-8 flex h-24 w-40 shrink-0 items-center justify-center grayscale transition-all duration-300 hover:grayscale-0"
-            >
-              <div className="relative h-full w-full">
-                <Image
-                  src={brand.logo}
-                  alt={brand.name}
-                  fill
-                  className="object-contain opacity-90 transition-opacity duration-300 group-hover:opacity-100"
+                  className="object-contain"
                 />
               </div>
             </div>
           ))}
         </div>
-      </div>
 
-      {/* Brand Count */}
-      <div
-        className="mt-12 text-center"
-        data-aos="fade-top"
-        data-aos-delay="400"
-      >
-        <p className="text-sm text-[#06ac5e]">
-          {t("partnering")}{" "}
-          <span className="font-semibold ">{t("brandsCount")}</span>{" "}
-          {t("brandsLabel")}
-        </p>
+        {/* CTA to Partners Page */}
+        <div className="text-center" data-aos="fade-up" data-aos-delay="200">
+          <p className="mb-6 text-sm text-gray-500">
+            {t("partnering")}{" "}
+            <span className="font-semibold text-[#06ac5e]">
+              {t("brandsCount")}
+            </span>{" "}
+            {t("brandsLabel")}
+          </p>
+          <Link
+            href="/partners"
+            className="group inline-flex items-center gap-3 border border-black px-8 py-3.5 text-xs font-semibold uppercase tracking-[0.2em] text-black transition-all duration-300 hover:bg-black hover:text-white"
+          >
+            {t("viewAll")}
+            <svg
+              className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={1.5}
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
+              />
+            </svg>
+          </Link>
+        </div>
       </div>
     </section>
   );
